@@ -216,11 +216,19 @@ html {
         padding: 0.5vw 2vw;
     }
 
+    #about{
+        height:201vw;
+    }
 
-    
-    .left-curtain {
+    .curtain-wrapper {
         position: relative;
-        top: -5vw;
+        width: 100%;
+        height: 88vw;
+    }
+
+    .left-curtain {
+        position: absolute;
+        top: -4.1vw;
         left: 0;
         width: 50.07vw;
         height: 85vw;
@@ -229,13 +237,50 @@ html {
     }
 
     .right-curtain {
-        position: relative;
-        top: -88vw;
-        left: 50.07vw;
+        position: absolute;
+        top: -3.8vw;
+        right: 0;
         width: 50.07vw;
         height: 85vw;
         z-index: 12;
     }
+    
+    .hand{
+        position: relative;
+        top: 58.5vw;
+        width: 36.54vw;
+        height: 33.76vw;
+    }
+
+    .center-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -71vw; 
+        position: relative;
+        z-index: 14; 
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 23.2vw;
+        height: 34.72vw;
+        object-fit: cover;
+        margin-bottom: 5vw;
+    }
+
+    .learned{
+        width: 36.32vw;
+        margin-top: -1vw;
+    }
+
+    .skills{
+        margin-top: 7vw;
+        margin-bottom: -2vw;
+    }
+
+
+
 }
 /*
 * {
