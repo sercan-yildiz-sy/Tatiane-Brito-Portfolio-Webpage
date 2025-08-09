@@ -274,11 +274,48 @@ html {
         margin-top: -1vw;
     }
 
-    .skills{
+    .skills-text{
         margin-top: 7vw;
         margin-bottom: -2vw;
     }
 
+    .skills-section{
+        max-width: 80vw;
+        display: flex;
+        gap: 2.22vw;
+        flex-wrap: wrap;
+        left:auto;
+        right:auto;
+        position: relative;
+        margin-top: 5vw;
+    }
+
+    .skills-card{
+        background-color: #5F3413;
+        border-radius: 32px;
+        display: flex;  
+        align-items: center;
+        padding-left:25px;
+        width: 18.33vw;   
+        height: 8.05vw;        
+        box-sizing: border-box;
+    }
+
+    .skills img{
+        height: 70%;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    .skills-card-text{
+        padding-left: 1.67vw;
+        text-align: left;
+    }
+
+    .skills-experience{
+        color: rgba(241, 235, 220, 0.72);
+        margin-top: -1.2vw;
+    }
 
 
 }
