@@ -317,6 +317,73 @@ html {
         margin-top: -1.2vw;
     }
 
+    .left-column{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .right-column{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: scaleX(-1);
+    }
+
+   .contact-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 28vw; 
+        position: relative;
+        text-align: center;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        gap: 2.5vw;
+    }
+
+    .contact-form-name-email{
+        width: 46.94vw;
+        height: 4.31vw;
+        border-radius: 16px;
+        border: 1px solid #5F3413;
+        background-color: transparent;
+        padding-left: 2.5vw;
+
+    }
+
+    .contact-form-message{
+        width: 46.94vw;
+        height: 8.33vw;
+        border-radius: 16px;
+        background-color: transparent;
+        border: 1px solid #5F3413;
+        padding-left: 2.5vw;
+        padding-top: 3vw;
+        resize: none;
+    }
+
+    .send-button{
+        width:10.28vw;
+        height: 3.33vw;
+        background-color: #5F3413;
+        border-radius: 16px;
+    }
+
+    .contact-logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 2.222vw;
+    }
 
 }
 /*
