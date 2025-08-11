@@ -214,10 +214,12 @@ html {
         border-color:#F1EBDC;
         border-radius: 16px;
         padding: 0.5vw 2vw;
+        width: 11.87vw;
+        height: 3.33vw;
     }
 
     #about{
-        height:201vw;
+        height:182.56vw;
     }
 
     .curtain-wrapper {
@@ -238,7 +240,7 @@ html {
 
     .right-curtain {
         position: absolute;
-        top: -3.8vw;
+        top: -4.1vw;
         right: 0;
         width: 50.07vw;
         height: 85vw;
@@ -247,9 +249,10 @@ html {
     
     .hand{
         position: relative;
-        top: 58.5vw;
+        top: 54.5vw;
         width: 36.54vw;
         height: 33.76vw;
+        left: 1vw;
     }
 
     .center-content {
@@ -263,15 +266,19 @@ html {
     }
 
     .profile-pic {
-        width: 23.2vw;
-        height: 34.72vw;
+        width: 20.83vw;
+        height: 31.25vw;
         object-fit: cover;
-        margin-bottom: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .the-face{
+        margin-top: -1.5vw;
     }
 
     .learned{
         width: 36.32vw;
-        margin-top: -1vw;
+        margin-top: -1.5vw;
     }
 
     .skills-text{
@@ -287,7 +294,7 @@ html {
         left:auto;
         right:auto;
         position: relative;
-        margin-top: 5vw;
+        margin-top: 2vw;
     }
 
     .skills-card{
@@ -334,9 +341,14 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 28vw; 
+        margin-top: 20vw; 
         position: relative;
         text-align: center;
+        gap: 0vw;
+    }
+
+    .contact-texts p {
+        margin: 0; 
     }
 
     .contact-form{
@@ -346,6 +358,7 @@ html {
         position: relative;
         text-align: center;
         gap: 2.5vw;
+        margin-top: 2vw;
     }
 
     .contact-form-name-email{
