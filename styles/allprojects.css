@@ -1,0 +1,185 @@
+@media (min-width: 768px) {
+
+ .main-nav {
+        position: absolute;
+        top: -2vw;       
+        left: 3.5vw;            
+        width:30vw;
+        transform-origin: left top;
+        transform:rotate(-90deg) translateX(-100%);
+    }
+
+    ul.nav li {    
+        height:100%;
+    }
+
+
+    .background{
+        background-image: url('../images/background-projects.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 405.625vw;
+        top:0;
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+    }
+    
+    
+
+
+    .main-text-container{
+        margin-top: 5vw;
+        margin-left:5vw;
+        z-index: 10;
+        text-align: center;
+    }
+
+    .some-projects{
+        margin-top: -4vw;
+        text-align: left;
+        margin-left: 9vw;
+    }
+
+    .branding{
+        margin-top: 6vw;
+        text-align: left;
+        margin-left: 9vw;
+    }
+
+    .leoo {
+        margin-left: 5vw;
+        margin-top: 3vw;
+        margin-right: auto;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .leoo-img{
+        width: 66.53vw;
+        height: 33.89vw;
+    }
+    
+    .projects-texts-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        gap: 2vw; 
+    }
+    
+    .project-card{
+        background-color: #F1EBDC;
+        border-color:#150903;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .leoo-texts{
+        width: 21.25vw; 
+        height: 14.1vw;        
+        padding-left: 2vw;
+        margin-top:8vw;
+    }
+
+    .leoo-title{
+        margin-bottom: 0.5vw;;
+    }
+
+    .leoo-explanation{
+        margin-top: 0.5vw;
+        width: 16vw;
+    }
+
+    .open-button{
+        width: 10.42vw;
+        height: 3.33vw;
+        padding: 0.8vw 1.6vw;
+        border-width: 1px;
+        background-color: transparent;
+        border-style:solid;
+        border-color:#F1EBDC;
+        border-radius: 16px;
+    }
+    
+    .paw {
+        margin-right: 2vw;
+        margin-left: auto;
+        margin-top: 5vw;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+    }
+
+    .paw-img{
+        width: 34.72vw;
+        height: 34.72vw;
+    }
+
+    .paw-texts{
+        width: 21.25vw; 
+        height: 11.6vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: 8vw;
+    }
+
+    .mobile-exhibition{
+        margin-top: 15vw;
+        margin-left: 5vw;
+    }
+
+    .quickly {
+        margin-right: 2vw;
+        margin-left: auto;
+        margin-top: 5vw;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+    }
+
+    .quickly-img{
+        width: 34.93vw;
+        height: 34.93vw;
+    }
+
+    .quickly-texts{
+        width: 21.25vw; 
+        height: 11.6vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: 8vw;
+    }
+
+    .arc {
+        margin-right: 2vw;
+        margin-left: auto;
+        margin-top: 5vw;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+    }
+
+    .arc-img{
+        width: 35.416vw;
+        height: 69.514vw;
+    }
+
+    .arc-texts{
+        width: 21.25vw; 
+        height: 11.6vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: 8vw;
+    }
+}
