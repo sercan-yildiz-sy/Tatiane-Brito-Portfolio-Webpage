@@ -153,7 +153,7 @@
         width: fit-content;
         display: flex;
         align-items: center;
-        gap: 1.66vw;
+        gap: 1.67vw;
         flex-direction: row;
     }
 
@@ -182,7 +182,7 @@
         width: fit-content;
         display: flex;
         align-items: center;
-        gap: 2vw;
+        gap: 1.67vw;
     }
 
     .paw-img{
@@ -232,13 +232,13 @@
     }
 
     .arc {
-        margin-right: 7.57vw;
+        margin-right: 9.24vw;
         margin-left: auto;
         margin-top: -33vw;
         width: fit-content;
         display: flex;
         align-items: center;
-        gap: 1vw;
+        gap: 1.67vw;
     }
 x
     .arc-img{
@@ -266,7 +266,7 @@ x
         width: fit-content;
         display: flex;
         align-items: center;
-        gap: 2vw;
+        gap: 1.67vw;
         flex-direction: row-reverse;
     }
 x
@@ -284,13 +284,13 @@ x
     }
 
     .sercan{
-        margin-right: 7.57vw;
+        margin-right: 9.24vw;
         margin-left: auto;
-        margin-top: 3vw;
+        margin-top: 4vw;
         width: fit-content;
         display: flex;
         align-items: end;
-        gap: 2vw;
+        gap: 1.67vw;
         flex-direction: column-reverse;
     }
 x
@@ -309,11 +309,11 @@ x
     .smartfit{
         margin-left: 4.44vw;
         margin-right: auto;
-        margin-top: -40vw;
+        margin-top: -35vw;
         width: fit-content;
         display: flex;
         align-items: center;
-        gap: 1vw;
+        gap: 1.67vw;
         flex-direction: row-reverse;
     }
 x
@@ -331,15 +331,15 @@ x
     }
 
     .bacio{
-        margin-right: 7.57vw;
-        margin-left:auto;
+        margin-right: auto;
+        margin-left: 4.44vw;
         margin-top: 5vw;
         width: fit-content;
         display: flex;
-        align-items: center;
-        gap: 2vw;
+        align-items: start;
+        gap: 1.67vw;
     }
-x
+
     .bacio-img{
         width: 66.53vw;
         height: 33.89vw;
@@ -356,11 +356,32 @@ x
     .contact-logos{
         display: flex;
         flex-direction: row;
-        margin-left: 5.76vw;
-        margin-top: 15vw;
         align-items: center;
         justify-content: start;
         text-align: center;
         gap: 2.222vw;
     }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        margin-top: 8vw;
+        padding-left: 4.44vw;   
+        padding-right: 9.24vw;
+    }
+
+    .back-to-top{
+        background-color: #F1EBDC;
+        border-color:#150903;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 16px;
+        width: 19.86vw;
+        height: 3.33vw;
+        white-space: nowrap;
+        padding: 0.6vw 3vw;
+    }
+
 }
