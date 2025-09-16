@@ -103,7 +103,7 @@
     .open-button-dark{
         width: 10.42vw;
         height: 3.33vw;
-        padding: 0.8vw 1.6vw;
+        padding: 0.55vw 2.77vw;
         border-width: 1px;
         background-color: transparent;
         border-style:solid;
@@ -126,7 +126,7 @@
     .open-button-light{
         width: 10.42vw;
         height: 3.33vw;
-        padding: 0.8vw 1.6vw;
+        padding: 0.55vw 2.77vw;
         border-width: 1px;
         background-color: transparent;
         border-style:solid;
@@ -361,7 +361,10 @@ x
         text-align: center;
         gap: 2.222vw;
     }
-
+    .logos{
+        width: 4.44vw;
+        height: 4.44vw;
+    }
     .footer{
         display: flex;
         flex-direction: row;
@@ -381,7 +384,7 @@ x
         width: 19.86vw;
         height: 3.33vw;
         white-space: nowrap;
-        padding: 0.6vw 3vw;
+        padding: 0.55vw 2.77vw;
     }
 
 }

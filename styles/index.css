@@ -62,7 +62,7 @@
         border-style: solid;
         border-color: #F1EBDC;
         border-radius: 16px;
-        padding: 0.5vw 2vw;
+        padding: 0.55vw 2.77vw;
     }
 
 
@@ -104,26 +104,52 @@
         left: auto;
         right:auto;
     }
+    .swiper {
+        width: 100vw;
+        max-width: 100vw;
+        margin: 0 auto;
+        min-height: 33.89vw;
+        display: flex;
+        align-items: center;
+        overflow: visible;
+        padding: 0;
+    } 
+
+    
+    .swiper-slide {
+        flex: 0 0 66.33vw;      
+        max-width: 66.33vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -0.64vw;
+        margin-top: 1vw;
+    }
+    
+    .swiper-slide a {
+        pointer-events: none;
+        }
+
+    .swiper-slide.swiper-slide-active a {
+        pointer-events: auto;
+    }
 
     .project-frame{
-        position: relative;
-        left: auto;
-        right:auto;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
         width: 66.33vw;
         height: 33.89vw;
     }
 
     .see-all-button{
-        position: relative;
         box-sizing: border-box;
         border-width: 1px;
         background-color: transparent;
-        border-style:solid;
-        border-color:#F1EBDC;
+        border-style: solid;
+        border-color: #F1EBDC;
         border-radius: 16px;
-        padding: 0.5vw 2vw;
-        width: 11.87vw;
-        height: 3.33vw;
+        padding: 0.55vw 2.77vw;
     }
 
     #about{
@@ -206,7 +232,7 @@
     }
 
     .skills-card{
-        background-color: #5F3413;
+        background-color: #941B2D;
         border-radius: 32px;
         display: flex;  
         align-items: center;
@@ -291,10 +317,11 @@
     }
 
     .send-button{
-        width:10.28vw;
-        height: 3.33vw;
-        background-color: #5F3413;
+        padding: 0.55vw 2.77vw;
         border-radius: 16px;
+        background-color: transparent;
+        border-style: solid;
+        border-color: #5F3413;
     }
 
     .contact-logos{

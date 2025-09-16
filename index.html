@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tatiane Brito - Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <link rel="stylesheet" href="styles/style.css" />
         <link rel="stylesheet" href="styles/index.css" />
         <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
@@ -55,18 +56,92 @@
             </a>      
  
         </div>
-
+        
         <div id="projects" class="project-container project-background">
             <p class="heading2 stonebeige project-hall">PROJECT HALL</p>
             <p class="para stonebeige project-hall-text">Where we transform ideas into visual concepts.</p>
-            <picture class="project-frame">
-                <source srcset="images/project-frame4.png" media="(max-width: 768px)">
-                <img src="images/project-frame4.png" alt="Project Frame4"/>
-            </picture>
-            <a href="#about" >
+            
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="projecthall/leoo/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/leoo.png" media="(max-width: 768px)">
+                                <img src="images/leoo.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/paw/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/paw-mainpage.png" media="(max-width: 768px)">
+                                <img src="images/paw-mainpage.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/quickly/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/quickly-mainpage.png" media="(max-width: 768px)">
+                                <img src="images/quickly-mainpage.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/arc/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/arc-mainpage.png" media="(max-width: 768px)">
+                                <img src="images/arc-mainpage.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/re/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/re.png" media="(max-width: 768px)">
+                                <img src="images/re.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/sercan/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/sercan-mainpage.png" media="(max-width: 768px)">
+                                <img src="images/sercan-mainpage.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/smartfit/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/smartfit-mainpage.png" media="(max-width: 768px)">
+                                <img src="images/smartfit-mainpage.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="projecthall/bacio/index.html">
+                            <picture class="project-frame">
+                                <source srcset="images/bacio.png" media="(max-width: 768px)">
+                                <img src="images/bacio.png" alt="Project Frame4"/>
+                            </picture>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="projecthall/index.html" >
                 <span class="ctas stonebeige see-all-button">SEE ALL</span>
             </a> 
         </div>
+                
 
 
         <div id="about" class="bg-stonebeige">
@@ -186,7 +261,7 @@
                     <input class="para browndrapes contact-form-name-email" type="text" name="name" placeholder="Name" required />
                     <input class="para browndrapes contact-form-name-email" type="email" name="email" placeholder="Email" required />
                     <textarea class="para browndrapes contact-form-message" type="text" name="message" placeholder="Message" required></textarea>
-                    <button class="ctas stonebeige send-button" type="submit">Send</button>
+                    <button class="ctas browndrapes send-button" type="submit">Send</button>
                     <div id="form-message" class="form-message"></div>
 
                 </form>
@@ -209,6 +284,7 @@
 
             
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
