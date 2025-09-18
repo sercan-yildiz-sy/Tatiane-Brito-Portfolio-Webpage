@@ -1,5 +1,4 @@
 @media (min-width: 768px) {
-
  .main-nav {
         position: absolute;
         top: 12vw;       
@@ -13,7 +12,7 @@
 
 
     .background{
-        background-image: url('../images/background-projects.png');
+        background-image: url('../images/projecthall-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

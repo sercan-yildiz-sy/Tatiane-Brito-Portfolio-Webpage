@@ -15,7 +15,10 @@
     }
 
     .main-nav {
-        width:30vw;
+        position: absolute;
+        top: 0vw;
+        left: 3.33vw;
+        width: 30vw;
         transform-origin: left top;
         transform:rotate(-90deg) translateX(-100%);
     }
