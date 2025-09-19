@@ -22,17 +22,17 @@ html {
 
 @media (min-width: 768px) {
 
-    .heading1{
+    h1{
         font-family: 'Cinzel Decorative', serif;
         font-size: clamp(3rem, 9vw, 10rem);
     }
 
-    .heading2{   
+    h2{   
         font-family: 'Cinzel', serif;
         font-size: clamp(1.5rem, 3.33vw, 3.5rem);
     }
 
-    .heading3 {
+    h3 {
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(1.25rem, 2.8vw, 3rem);

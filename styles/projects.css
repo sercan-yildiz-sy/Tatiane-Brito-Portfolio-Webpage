@@ -141,8 +141,8 @@
         width: 90.55vw;
         max-width: 90.55vw;
         align-items: flex-start;
-        margin-left: 2.22vw;
-        margin-top: 10vw;
+        margin-left: 4.375vw;
+        margin-top: 12vw;
     }
     .kick-off p{
         line-height: 1.2;
@@ -184,8 +184,20 @@
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }
-
     
+    .double-diamond-container{
+        margin-top: 5vw;
+        margin-left: 4.375vw;
+    }
+
+    .double-diamond{
+        margin-top: 1.22vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2.22vw;
+        justify-content: flex-start;
+    }
+
 
 
 
