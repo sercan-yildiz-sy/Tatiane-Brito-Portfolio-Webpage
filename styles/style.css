@@ -38,6 +38,13 @@ html {
         font-size: clamp(1.25rem, 2.8vw, 3rem);
     }
 
+    em{
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+        font-size: clamp(0.875rem, 1.17vw, 1.3rem);
+        white-space: nowrap;
+    }
+
     .tags{  
         font-family: 'Buenard', serif;
         font-weight: 400;
@@ -71,7 +78,7 @@ html {
     .captions{
         font-family: 'Buenard', serif;
         font-weight: 400;
-        font-size: clamp(0.8125rem, 0.9vw, 0.875rem);
+        font-size: clamp(0.8125rem, 0.97vw, 1rem);
     }
 
     .dynalight{
@@ -107,7 +114,10 @@ html {
         background-color: #5F3413;
     }
 
-    
+    ol li::marker, ul li::marker {
+        font-family: 'Buenard', serif;
+        font-weight: 400;
+    }
 
 }
 /*
