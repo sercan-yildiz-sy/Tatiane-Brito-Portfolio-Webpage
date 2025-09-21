@@ -124,3 +124,7 @@ html {
 * {
   border: 1px solid red;
 }*/
+ol li::marker, ul li::marker {
+        font-family: 'Buenard', serif;
+        font-weight: 400;
+    }
