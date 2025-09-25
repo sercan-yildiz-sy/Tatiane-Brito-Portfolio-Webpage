@@ -59,6 +59,32 @@
         z-index: -5;
     }
 
+    .background-re{
+        background-image: url('../images/re/re-background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 327.36vw;
+        top:0;
+        position: absolute;
+        overflow: hidden;
+        z-index: -5;
+    }
+
+    .background-sercan{
+        background-image: url('../images/sercan/background-sercan.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 232.78vw;
+        top:0;
+        position: absolute;
+        overflow: hidden;
+        z-index: -5;
+    }
+
     .curtain{
         position: absolute;
         right:0;
@@ -102,8 +128,9 @@
         display: flex;
         align-items: center;
         height: 100%;
-        padding-left: 2.5vw;
-        padding-right: 2.5vw;
+        padding: 2.5vw;
+        justify-content: center;
+        box-sizing: border-box;
     }
 
     .goal {
@@ -155,38 +182,64 @@
         margin-bottom: 2.22vw;
     }
 
-    .kickoff-pictures{
+    .kickoff-pictures-flex{
+        margin-top: 2.22vw;
+        display:flex;
+        flex-direction: row;
+        gap: 2.77vw;
+        width: 90.55vw;
+    }
+    .kickoff-pictures-flex img{
+        width: 100%;
+        height: auto;
+    }
+
+    .kickoff-pictures-grid{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;  
         grid-template-rows: 1fr 1fr;     
         height: 27.77vw;
-        width: 93.05vw;
+        width: 90.55vw;
         margin-top: 2vw;
     }
 
+    .kickoff-quickly{
+        width: 90.55vw;
+        height:auto;
+    }
+
+    .kickoff-paw{
+        width: 43.88vw;
+        height: auto;
+    }
    
 
     .pic1 {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
         margin-right: 2.22vw;
+        width: 44.44vw;
     }
 
     .pic2 {
         grid-column: 2 / 4;
         grid-row: 1 / 2;
         margin-bottom: 2.778vw;
+        width: 43.88vw;
     }
 
     .pic3 {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         margin-right: 2.5vw;
+        width: 20.35vw;
     }
 
     .pic4 {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
+        width: 20.35vw;
+
     }
     
     .double-diamond-container{
@@ -194,11 +247,11 @@
         margin-left: 4.375vw;
     }
 
-    .double-diamond{
+    .double-diamond-flex{
         margin-top: 1.22vw;
         display: flex;
         flex-direction: row;
-        gap: 2.22vw;
+        gap: 2.77vw;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
@@ -209,21 +262,34 @@
         display: flex;
         flex-direction: column;
         gap: 1.11vw;
+        word-break: break-word;
+    }
+    .double-diamond-oneline{
         width: 20.55vw;
     }
+
+    .double-diamond-cards img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
     .double-diamond-cards p{
         margin: 0;
     }
 
 
-    .double-diamond-cards img{
-        width: 20.55vw;
-    }
-
     .double-diamond-cards-multiple{
         display: flex;
         flex-direction: row;
         gap: 1.11vw;
+    }
+    
+    .double-diamond-cards-multiple img {
+        flex: 1 1 auto;     
+        min-width: 0;        
+        max-width: 100%;
+        height: auto;
     }
 
     .double-diamond-cards-header{
@@ -244,8 +310,43 @@
         margin-bottom: 0.55vw;
         
     }
+
+    .emphatize-quickly {
+        width: 42.01vw;
+    }
+
+    .define-quickly{
+        width: 46.52vw;
+    }
+    .ideation-quickly{
+        width: 68.61vw;
+    }
+    .prototype-quickly{
+        width: 19.93vw;
+    }
+
+    .think-re{
+        width: 33.54vw;
+    }
+    
+    .make-check-re{
+        width: 53.96vw;
+    }
+
+    .benchmark-sercan{
+        width: 29.51vw;
+    }
+    
+    .identity-sercan{
+        width: 25.625vw;
+    }
+
+    .ideation-sercan{
+        width: 28.47vw;
+    }
+
     .deliverables {
-        margin-top: 13vw;
+        margin-top: 15vw;
         margin-left: 4.375vw;
         margin-right: auto;
         max-width: 90.555vw;
@@ -260,6 +361,12 @@
         row-gap: 2.22vw;
         column-gap: 2.22vw;
 
+    }
+
+    .re-deliverables{
+        gap: 3.61vw;
+        row-gap: 3.61vw;
+        column-gap: 3.61vw;
     }
     .img1 {
         width: 51.11vw;
@@ -325,24 +432,69 @@
         display: grid;
         grid-template-columns: 40.625vw 47.91vw; 
         grid-template-rows: 34.79vw 84.65vw;           
-        gap: 2.22vw;
+        gap: 2.77vw;
     }
 
     .quickly-img1 {
         grid-column: 1; 
         grid-row: 1; 
+        width: 40.625vw;
     }
 
     .quickly-img2 {
         grid-column: 2; 
         grid-row: 1;  
+        width: 47.91vw;
     }
 
     .quickly-img3 {
         grid-column: 1/2;
         grid-row: 2;  
+        width: 91.32vw;
     }
     
+    .prototype-sercan1{
+        width: 68.43vw;
+    }
+
+    .prototype-sercan2{
+        width: 18.14vw;
+    }
+    
+    .link-figma{
+        margin-top: 4.44vw;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .link-website{
+        margin-top: 1vw;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-decoration: underline;
+        text-decoration-color: #FAF6EB;
+    }
+
+    .open-button-dark{
+        width: 16.18vw;
+        height: 3.33vw;
+        padding: 0.55vw 2.77vw;
+        border-width: 1px;
+        background-color: transparent;
+        border-style:solid;
+        border-color:#F1EBDC;
+        border-radius: 16px;
+    }
+
+
+    .open-button-dark:hover{
+        background-color: #F1EBDC;
+        color: #150903;
+        border-color: #150903;
+        cursor: pointer;
+    }
 
     .similar {
         margin-top: 5.55vw;
