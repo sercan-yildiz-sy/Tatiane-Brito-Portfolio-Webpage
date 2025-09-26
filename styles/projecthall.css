@@ -12,7 +12,7 @@
 
 
     .background{
-        background-image: url('../images/projecthall-background.png');
+        background-image: url('../images/bigscreen/projecthall-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -254,7 +254,7 @@ x
     }
 
     .digital-exhibition{
-        margin-top: 13vw;
+        margin-top: 20vw;
         margin-left: 4.44vw;
     }
 

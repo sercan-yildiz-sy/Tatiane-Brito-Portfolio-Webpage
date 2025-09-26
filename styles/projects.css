@@ -22,7 +22,7 @@
     }
 
     .background-leoo{
-        background-image: url('../images/leoo/leoo-background.png');
+        background-image: url('../images/bigscreen/leoo/leoo-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@
         z-index: -1;
     }
     .background-paw{
-        background-image: url('../images/paw/background-paw.png');
+        background-image: url('../images/bigscreen/paw/background-paw.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -47,7 +47,7 @@
     }
 
     .background-quickly{
-        background-image: url('../images/Quickly/background-quickly.png');
+        background-image: url('../images/bigscreen/Quickly/background-quickly.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -60,7 +60,7 @@
     }
 
     .background-re{
-        background-image: url('../images/re/re-background.png');
+        background-image: url('../images/bigscreen/re/re-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -73,7 +73,7 @@
     }
 
     .background-sercan{
-        background-image: url('../images/sercan/background-sercan.png');
+        background-image: url('../images/bigscreen/sercan/background-sercan.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -86,7 +86,7 @@
     }
 
     .background-smartfit{
-        background-image: url('../images/smartfit/background-smartfit.png');
+        background-image: url('../images/bigscreen/smartfit/background-smartfit.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -99,7 +99,7 @@
     }
 
     .background-bacio{
-        background-image: url('../images/bacio/background-bacio.png');
+        background-image: url('../images/bigscreen/bacio/background-bacio.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -112,7 +112,7 @@
     }
     
     .background-arc{
-        background-image: url('../images/arc/background-arc.png');
+        background-image: url('../images/bigscreen/arc/background-arc.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

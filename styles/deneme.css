@@ -24,7 +24,7 @@
     }
 
     .background-leoo{
-        background-image: url('../images/leoo/leoo-background.png');
+        background-image: url('../images/bigscreen/leoo/leoo-background.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -36,7 +36,7 @@
         z-index: -1;
     }
     .background-paw{
-        background-image: url('../images/paw/background-paw.png');
+        background-image: url('../images/bigscreen/paw/background-paw.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -49,7 +49,7 @@
     }
 
     .background-quickly{
-        background-image: url('../images/Quickly/background-quickly.png');
+        background-image: url('../images/bigscreen/Quickly/background-quickly.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
