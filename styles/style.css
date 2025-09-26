@@ -72,7 +72,7 @@ html {
     .parabold{
         font-family: 'Buenard', serif;
         font-weight: 700;
-        font-size: clamp(0.875rem, 1.17vw, 1.3rem);
+        font-size: clamp(0.875rem, 1.14vw, 1.3rem);
     }
 
     .captions{
@@ -102,29 +102,132 @@ html {
         color: #5F3413;
     }
 
-    .bg-stonebeige{
-        background-color: #F1EBDC;
-    }
-
-    .bg-deepcave{
-        background-color: #150903;
-    }
-
-    .bg-browndrapes{
-        background-color: #5F3413;
-    }
-
     ol li::marker, ul li::marker {
         font-family: 'Buenard', serif;
         font-weight: 400;
     }
 
+
 }
+
+
+@media (max-width: 768px) {
+
+    h1{
+        font-family: 'Cinzel Decorative', serif;
+        font-size: clamp(2.5rem, 14.55vw, 4rem);
+    }
+
+    h2{   
+        font-family: 'Cinzel', serif;
+        font-size: clamp(1.375rem, 7.73vw, 2.125rem);
+    }
+
+    h3 {
+        font-family: 'Buenard', serif;
+        font-weight: 700;
+        font-size: clamp(1.125rem, 5.45vw, 1.5rem);
+    }
+
+    em{
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+        font-size: clamp(0.75rem, 3.18vw, 0.875rem);
+        white-space: nowrap;
+    }
+
+    .tags{  
+        font-family: 'Buenard', serif;
+        font-weight: 400;
+        font-size: clamp(1rem, 4.55vw, 1.25rem);
+    }
+    
+    .tags-bold{  
+        font-family: 'Buenard', serif;
+        font-weight: 700;
+        font-size: clamp(1rem, 4.55vw, 1.25rem);
+    }
+
+    .ctas {
+        font-family: 'Cinzel Decorative', serif !important;
+        font-size: clamp(1rem, 4.55vw, 1.25rem);
+    }
+
+
+    .para{
+        font-family: 'Buenard', serif;
+        font-weight: 400;
+        font-size: clamp(0.875rem, 3.64vw, 1rem);
+    }
+
+    .parabold{
+        font-family: 'Buenard', serif;
+        font-weight: 700;
+        font-size: clamp(0.875rem, 3.64vw, 1rem);
+    }
+
+    .captions{
+        font-family: 'Buenard', serif;
+        font-weight: 400;
+        font-size: clamp(0.75rem, 3.18vw, 0.875rem);
+    }
+
+    .dynalight{
+        font-family: 'Dynalight', cursive;
+        font-size: clamp(1.25rem, 7.27vw, 2rem);
+        color: #FFFFFF;
+    }
+
+    .smallcopy{
+        color: #FAF6EB;
+    }
+
+    .stonebeige{
+        color: #F1EBDC;
+    }
+
+    .deepcave{
+        color: #150903;
+    }
+    .browndrapes{
+        color: #5F3413;
+    }
+
+
+
+}
+
+
 /*
 * {
   border: 1px solid red;
 }*/
+
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
 ol li::marker, ul li::marker {
-        font-family: 'Buenard', serif;
-        font-weight: 400;
-    }
+    font-family: 'Buenard', serif;
+    font-weight: 400;
+}
+
+.smallcopy{
+    color: #FAF6EB;
+}
+
+.stonebeige{
+    color: #F1EBDC;
+}
+
+.deepcave{
+    color: #150903;
+}
+
+.browndrapes{
+        color: #5F3413;
+}
