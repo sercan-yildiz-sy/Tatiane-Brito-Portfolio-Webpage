@@ -115,66 +115,66 @@ html {
 
     h1{
         font-family: 'Cinzel Decorative', serif;
-        font-size: clamp(2.5rem, 14.55vw, 4rem);
+        font-size: clamp(2.5rem, 14.55vw, 5rem);
     }
 
     h2{   
         font-family: 'Cinzel', serif;
-        font-size: clamp(1.375rem, 7.73vw, 2.125rem);
+        font-size: clamp(1.375rem, 7.73vw, 2.5rem);
     }
 
     h3 {
         font-family: 'Buenard', serif;
         font-weight: 700;
-        font-size: clamp(1.125rem, 5.45vw, 1.5rem);
+        font-size: clamp(1.125rem, 5.45vw, 2rem);
     }
 
     em{
         font-family: 'Crimson Text', serif;
         font-style: italic;
-        font-size: clamp(0.75rem, 3.18vw, 0.875rem);
+        font-size: clamp(0.75rem, 3.18vw, 1rem);
         white-space: nowrap;
     }
 
     .tags{  
         font-family: 'Buenard', serif;
         font-weight: 400;
-        font-size: clamp(1rem, 4.55vw, 1.25rem);
+        font-size: clamp(1rem, 4.55vw, 1.5rem);
     }
     
     .tags-bold{  
         font-family: 'Buenard', serif;
         font-weight: 700;
-        font-size: clamp(1rem, 4.55vw, 1.25rem);
+        font-size: clamp(1rem, 4.55vw, 1.5rem);
     }
 
     .ctas {
         font-family: 'Cinzel Decorative', serif !important;
-        font-size: clamp(1rem, 4.55vw, 1.25rem);
+        font-size: clamp(1rem, 4.55vw, 1.5rem);
     }
 
 
     .para{
         font-family: 'Buenard', serif;
         font-weight: 400;
-        font-size: clamp(0.875rem, 3.64vw, 1rem);
+        font-size: clamp(0.875rem, 3.64vw, 1.25rem);
     }
 
     .parabold{
         font-family: 'Buenard', serif;
         font-weight: 700;
-        font-size: clamp(0.875rem, 3.64vw, 1rem);
+        font-size: clamp(0.875rem, 3.64vw, 1.25rem);
     }
 
     .captions{
         font-family: 'Buenard', serif;
         font-weight: 400;
-        font-size: clamp(0.75rem, 3.18vw, 0.875rem);
+        font-size: clamp(0.75rem, 3.18vw, 1rem);
     }
 
     .dynalight{
         font-family: 'Dynalight', cursive;
-        font-size: clamp(1.25rem, 7.27vw, 2rem);
+        font-size: clamp(1.25rem, 7.27vw, 2.5rem);
         color: #FFFFFF;
     }
 
@@ -230,4 +230,16 @@ ol li::marker, ul li::marker {
 
 .browndrapes{
         color: #5F3413;
+}
+
+.bg-stonebeige{
+    background-color: #F1EBDC;;
+}
+
+.bg-deepcave{
+    background-color: #150903;;
+}
+
+.bg-browndrapes{
+    background-color: #5F3413;;
 }

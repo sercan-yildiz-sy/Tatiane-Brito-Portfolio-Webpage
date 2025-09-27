@@ -23,9 +23,23 @@
         transform:rotate(-90deg) translateX(-100%);
     }
 
-    ul.nav li {    
-        height:100%;
+   .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row; 
     }
+
+    .nav-item {
+        margin: 1.5vw;
+    }
+
+    .nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    }
+
 
     .main-text-container {
         margin-top: -100vw;
@@ -81,7 +95,7 @@
         background-repeat: no-repeat;
         background-size: 100% auto; 
         z-index: 10;
-        margin-top: 5.7vw;
+        margin-top: 3.7vw;
 
     }
     
@@ -187,7 +201,7 @@
     
     .hand{
         position: relative;
-        top: 54.5vw;
+        top: 51.5vw;
         width: 36.54vw;
         height: 33.76vw;
         left: 1vw;
@@ -341,51 +355,51 @@
 
 
 
-
-
-
 @media (max-width: 768px) {
 
 .background{
-        background-image: url('../images/bigscreen/background-enterance.png');
+        background-image: url('../images/smallscreen/background-entrance.png');
         background-size: cover;
-        background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        height: 120.41vw;
-        top:0;
-        position: relative;
+        height: 214.09vw;
         overflow: hidden;
         z-index: -1;
     }
 
+    
     .main-nav {
-        position: absolute;
-        top: 0vw;
-        left: 3.33vw;
-        width: 30vw;
-        transform-origin: left top;
-        transform:rotate(-90deg) translateX(-100%);
+        width: 100%;
+        margin-top: 8vw;
     }
 
-    ul.nav li {    
-        height:100%;
+   .navbar-nav {
+        list-style: none;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        gap: 14.1vw;
+
     }
+
+
+
 
     .main-text-container {
-        margin-top: -100vw;
+        margin-top: -140vw;
         z-index: 10;
         text-align: center;
     }
 
     .name {
         display: block;
-        margin-left: 20.5vw;
-        margin-top: -2.4vw;
+        margin-left: 33.5vw;
+        margin-top: -3.5vw;
     }
 
     .dive {
-        margin-top: 33.5vw;
+        margin-top: 58vw;
     }
 
     .me-designer {
