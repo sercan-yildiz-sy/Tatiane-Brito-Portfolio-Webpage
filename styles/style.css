@@ -107,6 +107,12 @@ html {
         font-weight: 400;
     }
 
+    footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
 
 }
 
@@ -193,6 +199,12 @@ html {
         color: #5F3413;
     }
 
+    footer{
+        position: absolute;
+        text-align: center;
+        bottom: 15vw;
+        width: 100%;
+    }
 
 
 }
@@ -203,13 +215,6 @@ html {
   border: 1px solid red;
 }*/
 
-footer{
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-
-}
 
 ol li::marker, ul li::marker {
     font-family: 'Buenard', serif;

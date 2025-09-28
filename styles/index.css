@@ -514,7 +514,7 @@
     }
 
     #about{
-        height:504.54vw;
+        height:524.54vw;
     }
 
     .curtain-wrapper {
@@ -589,6 +589,7 @@
         right:auto;
         position: relative;
         margin-top: 5.45vw;
+        margin-bottom:30vw;
     }
 
     .skills-card{
@@ -601,6 +602,7 @@
         width: 29.54vw;   
         height: 44.54vw;        
         box-sizing: border-box;
+        
     }
 
     .skills-card img{
@@ -619,16 +621,16 @@
     .left-column{
         position: absolute;
         left: 0;
-        bottom: 0;
-            box-sizing: border-box;
+        bottom: 31.6vw;
+        box-sizing: border-box;
 
     }
 
     .right-column{
         position: absolute;
         right: 0;
-        bottom: 0;
-            box-sizing: border-box;
+        bottom: 31.6vw;
+        box-sizing: border-box;
 
     }
     html, body {
@@ -639,10 +641,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 60vw; 
         position: relative;
         text-align: center;
         gap: 0vw;
+        margin-top:20vw;
         width: 75.59vw;
         margin-left: auto;
         margin-right: auto;
@@ -658,7 +660,7 @@
         align-items: center;
         position: relative;
         text-align: center;
-        gap: 2.5vw;
+        gap: 7.76vw;
         margin-top: 2vw;
     }
 
@@ -697,6 +699,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        gap: 2.222vw;
+        gap: 7.76vw;
     }
 }
