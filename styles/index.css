@@ -362,7 +362,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 214.09vw;
+        height: 276.137vw;
         overflow: hidden;
         z-index: -1;
     }
@@ -384,10 +384,8 @@
     }
 
 
-
-
     .main-text-container {
-        margin-top: -140vw;
+        margin-top: -202vw;
         z-index: 10;
         text-align: center;
     }
@@ -403,15 +401,15 @@
     }
 
     .me-designer {
-        margin-top: 6vw;
-        width: 45vw;
+        margin-top: 24vw;
+        width: 85.45vw;
         margin-left: auto;
         margin-right: auto;
     }
 
     .i-believe {
         margin-top: 4vw;
-        width: 33vw;
+        width: 85.45vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -424,19 +422,18 @@
         border-style: solid;
         border-color: #F1EBDC;
         border-radius: 16px;
-        padding: 0.55vw 2.77vw;
+        padding: 2.5vw 8vw;
     }
 
 
     .project-background{
-        position: relative;
         background: linear-gradient(
             to bottom,
             rgba(21, 9, 3, 0) 0,
             rgba(21, 9, 3, 1) 10.7vw,
-            #150903 86.32vw
+            #150903 149.54vw
         );
-        height: 86.32vw;
+        height: 149.54vw;
         background-repeat: no-repeat;
         background-size: 100% auto; 
         z-index: 10;
@@ -447,7 +444,7 @@
     .project-container{
         position: relative;
         width: 100%;
-        height: 86.32vw;
+        height: 149.54vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -501,8 +498,8 @@
         display: block;
         margin-left: 0;
         margin-right: 0;
-        width: 66.33vw;
-        height: 33.89vw;
+        width: 73.66vw;
+        height: auto;
     }
 
     .see-all-button{
@@ -512,11 +509,12 @@
         border-style: solid;
         border-color: #F1EBDC;
         border-radius: 16px;
-        padding: 0.55vw 2.77vw;
+        padding: 2.5vw 8vw;
+        margin-top:10vw;
     }
 
     #about{
-        height:182.56vw;
+        height:504.54vw;
     }
 
     .curtain-wrapper {
@@ -526,11 +524,11 @@
     }
 
     .left-curtain {
-        position: absolute;
+        position: relative;
         top: -4.1vw;
         left: 0;
-        width: 50.07vw;
-        height: 85vw;
+        width: 50vw;
+        height: auto;
         transform: scaleX(-1);
         z-index: 13;
     }
@@ -539,17 +537,17 @@
         position: absolute;
         top: -4.1vw;
         right: 0;
-        width: 50.07vw;
-        height: 85vw;
+        width: 50vw;
+        height: auto;
         z-index: 12;
     }
     
     .hand{
-        position: relative;
-        top: 54.5vw;
-        width: 36.54vw;
-        height: 33.76vw;
-        left: 1vw;
+        position: absolute;
+        top: 124.5vw;
+        width: 30.73vw;
+        left: 0vw;
+        right: auto;
     }
 
     .center-content {
@@ -563,10 +561,10 @@
     }
 
     .profile-pic {
-        width: 20.83vw;
-        height: 31.25vw;
+        width: 45.45vw;
         object-fit: cover;
-        margin-bottom: 3vw;
+        margin-bottom: 7.27vw;
+        margin-top: 14vw;
     }
 
     .the-face{
@@ -574,74 +572,80 @@
     }
 
     .learned{
-        width: 36.32vw;
+        width: 85.45vw;
         margin-top: -0.5vw;
     }
 
     .skills-text{
         margin-top: 9vw;
-        margin-bottom: -2vw;
     }
 
     .skills-section{
-        max-width: 80vw;
+        max-width: 92.7vw;
         display: flex;
-        gap: 2.22vw;
+        gap: 1.818vw;
         flex-wrap: wrap;
         left:auto;
         right:auto;
         position: relative;
-        margin-top: 2vw;
+        margin-top: 5.45vw;
     }
 
     .skills-card{
         background-color: #941B2D;
         border-radius: 32px;
         display: flex;  
+        flex-direction: column;
         align-items: center;
-        padding-left:25px;
-        width: 18.33vw;   
-        height: 8.05vw;        
+        justify-content: center;
+        width: 29.54vw;   
+        height: 44.54vw;        
         box-sizing: border-box;
     }
 
-    .skills img{
-        height: 70%;
-        border-radius: 16px;
-        object-fit: cover;
+    .skills-card img{
+        margin-top:5vw;
     }
 
+
     .skills-card-text{
-        padding-left: 1.67vw;
-        text-align: left;
+        margin-top:1.81vw;
     }
 
     .skills-experience{
-        color: rgba(241, 235, 220, 0.72);
-        margin-top: -1.2vw;
+        margin-top: -4.2vw;
     }
 
     .left-column{
         position: absolute;
         left: 0;
         bottom: 0;
+            box-sizing: border-box;
+
     }
 
     .right-column{
         position: absolute;
         right: 0;
         bottom: 0;
-        transform: scaleX(-1);
-    }
+            box-sizing: border-box;
 
+    }
+    html, body {
+    overflow-x: hidden;
+}
    .contact-texts {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 20vw; 
+        justify-content: center;
+        margin-top: 60vw; 
         position: relative;
         text-align: center;
         gap: 0vw;
+        width: 75.59vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact-texts p {
@@ -659,28 +663,28 @@
     }
 
     .contact-form-name-email{
-        width: 46.94vw;
-        height: 4.31vw;
+        width: 75.59vw;
+        height: 10.91vw;
         border-radius: 16px;
         border: 1px solid #5F3413;
         background-color: transparent;
-        padding-left: 2.5vw;
+        padding-left: 8.18vw;
 
     }
 
     .contact-form-message{
-        width: 46.94vw;
-        height: 8.33vw;
+        width: 75.59vw;
+        height: 21.14vw;
         border-radius: 16px;
         background-color: transparent;
         border: 1px solid #5F3413;
-        padding-left: 2.5vw;
-        padding-top: 3vw;
+        padding-left: 8.18vw;
+        padding-top: 7vw;
         resize: none;
     }
 
     .send-button{
-        padding: 0.55vw 2.77vw;
+        padding: 2.5vw 8vw;
         border-radius: 16px;
         background-color: transparent;
         border-style: solid;
