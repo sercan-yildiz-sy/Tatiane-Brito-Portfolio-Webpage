@@ -107,20 +107,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 1.667vw;
        
     }
 
-    .project-hall{
-        position: relative;
-        left: auto;
-        right:auto;
+    .project-container p, .project-container h2{
+        margin: 0;
     }
 
-    .project-hall-text{
-        position: relative;
-        left: auto;
-        right:auto;
-    }
     
     .swiper {
         width: 100vw;
@@ -140,8 +134,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: -0.64vw;
-        margin-top: 1vw;
     }
     
     .swiper-slide a {
@@ -151,14 +143,12 @@
     .swiper-slide.swiper-slide-active a {
         pointer-events: auto;
     }
-
-    .project-frame{
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
-        width: 66.33vw;
-        height: 33.89vw;
+    
+    
+    .project-frame img{
+        width: 66.53vw;
     }
+
 
     .see-all-button{
         box-sizing: border-box;
@@ -449,19 +439,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 7.27vw;
        
     }
 
-    .project-hall{
-        position: relative;
-        left: auto;
-        right:auto;
+    .project-container h2{
+        margin: -5.45vw;
     }
-
-    .project-hall-text{
-        position: relative;
-        left: auto;
-        right:auto;
+    
+    .project-container p{
+        margin: 0;
     }
     
     .swiper {
@@ -494,13 +481,10 @@
         pointer-events: auto;
     }
 
-    .project-frame{
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
-        width: 73.66vw;
-        height: auto;
+    .project-frame img{
+        width: 73.64vw;
     }
+
 
     .see-all-button{
         box-sizing: border-box;
@@ -517,6 +501,7 @@
         height:524.54vw;
     }
 
+    
     .curtain-wrapper {
         position: relative;
         width: 100%;
