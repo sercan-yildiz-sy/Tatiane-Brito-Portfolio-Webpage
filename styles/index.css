@@ -116,24 +116,20 @@
     }
 
     
+
+
+    
     .swiper {
         width: 100vw;
-        max-width: 100vw;
-        margin: 0 auto;
-        min-height: 33.89vw;
-        display: flex;
-        align-items: center;
         overflow: visible;
-        padding: 0;
-    } 
+    }
 
     
     .swiper-slide {
-        flex: 0 0 66.33vw;      
-        max-width: 66.33vw;
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
     
     .swiper-slide a {
@@ -250,8 +246,8 @@
         box-sizing: border-box;
     }
 
-    .skills img{
-        height: 70%;
+    .skills-card img{
+        width: 5.556vw;
         border-radius: 16px;
         object-fit: cover;
     }
@@ -453,29 +449,19 @@
     
     .swiper {
         width: 100vw;
-        max-width: 100vw;
-        margin: 0 auto;
-        min-height: 33.89vw;
-        display: flex;
-        align-items: center;
         overflow: visible;
-        padding: 0;
     } 
 
-    
     .swiper-slide {
-        flex: 0 0 66.33vw;      
-        max-width: 66.33vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: -0.64vw;
         margin-top: 1vw;
     }
     
     .swiper-slide a {
         pointer-events: none;
-        }
+    }
 
     .swiper-slide.swiper-slide-active a {
         pointer-events: auto;
@@ -589,9 +575,10 @@
         box-sizing: border-box;
         
     }
-
     .skills-card img{
-        margin-top:5vw;
+        width: 20vw;
+        border-radius: 16px;
+        object-fit: cover;
     }
 
 
