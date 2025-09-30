@@ -111,24 +111,24 @@
        
     }
 
+
     .project-container p, .project-container h2{
         margin: 0;
     }
 
-    
 
 
-    
     .swiper {
-        width: 100vw;
+        width: 100%;
         overflow: visible;
     }
 
     
-    .swiper-slide {
+    .swiper-slide { 
         display: flex;
         justify-content: center;
         align-items: center;
+        
         
     }
     
