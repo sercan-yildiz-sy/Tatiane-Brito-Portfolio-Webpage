@@ -87,20 +87,6 @@ html {
         color: #FFFFFF;
     }
 
-    .smallcopy{
-        color: #FAF6EB;
-    }
-
-    .stonebeige{
-        color: #F1EBDC;
-    }
-
-    .deepcave{
-        color: #150903;
-    }
-    .browndrapes{
-        color: #5F3413;
-    }
 
     ol li::marker, ul li::marker {
         font-family: 'Buenard', serif;
@@ -221,6 +207,7 @@ ol li::marker, ul li::marker {
     font-weight: 400;
 }
 
+
 .smallcopy{
     color: #FAF6EB;
 }
@@ -229,12 +216,15 @@ ol li::marker, ul li::marker {
     color: #F1EBDC;
 }
 
+.stonebeige-nav{
+    color: rgba(241, 235, 220, 0.72);
+}
+
 .deepcave{
     color: #150903;
 }
-
 .browndrapes{
-        color: #5F3413;
+    color: #5F3413;
 }
 
 .bg-stonebeige{

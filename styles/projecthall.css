@@ -1,15 +1,39 @@
 @media (min-width: 768px) {
- .main-nav {
+ 
+
+    .nav-item:hover{
+        color: #FAF6EB;
+    }
+
+    
+    .main-nav {
+        z-index: 10;
         position: absolute;
-        top: 12vw;       
-        right: 10.5vw;            
+        top: 9vw;       
+        right: 11.5vw;            
         width:30vw;
     }
 
-    ul.nav li {    
-        height:100%;
+   .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row; 
     }
 
+    .nav-item {
+        margin: 1.5vw;
+    }
+
+    .nav-item:hover{
+        color: #FAF6EB;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-weight: 500;
+    }
 
     .background{
         background-image: url('../images/bigscreen/projecthall-background.png');
@@ -34,15 +58,24 @@
 
 
     .branding{
-        margin-top: 0vw;
+        margin-top: 5vw;
         text-align: left;
         margin-left: 19.44vw;
     }
     
-    .projects-texts-container{
+    .projects-texts-container-start{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         justify-content: flex-start; 
+        gap: 2vw; 
+    }
+
+    .projects-texts-container-end{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end; 
         gap: 2vw; 
     }
 
@@ -57,9 +90,6 @@
     
     .project-card-dark{
         background-color: #241A15;
-        border-color:#F1EBDC;
-        border-width: 1px;
-        border-style: solid;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
@@ -69,7 +99,6 @@
 
     .project-card-dark:hover{
         background-color: #F1EBDC;
-        border-color: #150903;
     }
 
     .project-card-dark:hover .stonebeige {
@@ -79,9 +108,6 @@
     
     .project-card-light{
         background-color: #F1EBDC;
-        border-color:#150903;
-        border-width: 1px;
-        border-style: solid;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
@@ -91,7 +117,6 @@
 
     .project-card-light:hover{
         background-color: #241A15;
-        border-color: #F1EBDC;
     }
 
     .project-card-light:hover .browndrapes {
@@ -170,9 +195,6 @@
         
     }
 
-    .leoo-open{
-        margin-left: 11.5vw;
-    }
 
     .paw {
         margin-right: 7.57vw;
@@ -197,9 +219,406 @@
         margin-top: 10.5vw;
     }
 
-    .paw-open{
-        margin-left: 13.5vw;
+
+    .mobile-exhibition{
+        margin-top: 12vw;
+        margin-left: 4.44vw;
     }
+
+    .quickly {
+        margin-left: 4.44vw;
+        margin-right: auto;
+        margin-top: 5vw;
+        width: fit-content;
+        display: flex;
+        align-items: start;
+        gap: 4vw;
+        flex-direction: column-reverse;
+    }
+
+    .quickly-img{
+        width: 30.56vw;
+        height: 30.56vw;
+    }
+
+    .quickly-texts{
+        width: 21.25vw; 
+        height: 10.35vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: -5vw;
+    }
+
+    .arc {
+        margin-right: 9.24vw;
+        margin-left: auto;
+        margin-top: -33vw;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 1.67vw;
+    }
+x
+    .arc-img{
+        width: 33.3333vw;
+        height: 65.43vw;
+    }
+
+    .arc-texts{
+        width: 21.25vw; 
+        height: 10.35vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: 45vw;
+    }
+
+    .digital-exhibition{
+        margin-top: 20vw;
+        margin-left: 4.44vw;
+    }
+
+    .re{
+        margin-left: 4.44vw;
+        margin-top: 3vw;
+        margin-right: auto;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 1.67vw;
+        flex-direction: row-reverse;
+    }
+x
+    .re-img{
+        width: 66.53vw;
+        height: 33.89vw;
+    }
+
+    .re-texts{
+        width: 21.25vw; 
+        height: 11.6vw;      
+        padding-right: 2vw;  
+        padding-left: 2vw;
+        margin-top: 15vw;
+    }
+
+    .sercan{
+        margin-right: 9.24vw;
+        margin-left: auto;
+        margin-top: 4vw;
+        width: fit-content;
+        display: flex;
+        align-items: end;
+        gap: 1.67vw;
+        flex-direction: column-reverse;
+    }
+x
+    .sercan-img{
+        width: 30.56vw;
+        height: 30.56vw;
+    }
+
+    .sercan-texts{
+        width: 21.25vw; 
+        height: 10.35vw;            
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    .smartfit{
+        margin-left: 4.44vw;
+        margin-right: auto;
+        margin-top: -35vw;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 1.67vw;
+        flex-direction: row-reverse;
+    }
+x
+    .smartfit-img{
+        width: 35.416vw;
+        height: 65.43vw;
+    }
+
+    .smartfit-texts{
+        width: 21.25vw; 
+        height: 11.67vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: 45vw;
+    }
+
+    .bacio{
+        margin-right: auto;
+        margin-left: 4.44vw;
+        margin-top: 5vw;
+        width: fit-content;
+        display: flex;
+        align-items: start;
+        gap: 1.67vw;
+    }
+
+    .bacio-img{
+        width: 66.53vw;
+        height: 33.89vw;
+    }
+
+    .bacio-texts{
+        width: 21.25vw; 
+        height: 11.67vw;        
+        margin-top: 15vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    .contact-logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+        gap: 2.222vw;
+    }
+    .logos{
+        width: 4.44vw;
+        height: 4.44vw;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        margin-top: 8vw;
+        padding-left: 4.44vw;   
+        padding-right: 9.24vw;
+    }
+
+    .back-to-top{
+        background-color: #F1EBDC;
+        border-color:#150903;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 16px;
+        width: 19.86vw;
+        height: 3.33vw;
+        white-space: nowrap;
+        padding: 0.55vw 2.77vw;
+    }
+    
+}
+
+@media (max-width: 767px) {
+ 
+    .main-nav {
+        width: 100%;
+        margin-top: 8vw;
+    }
+
+   .navbar-nav {
+        list-style: none;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        gap: 14.1vw;
+
+    }
+
+    .nav-item:hover{
+        color: #FAF6EB;
+    }
+
+
+
+    .background{
+        background-image: url('../images/smallscreen/projecthall-background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 1090.68vw;
+        top:0;
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+    }
+    
+
+    .main-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 15vw;
+        z-index: 10;
+        padding: 6.82vw;
+        gap:5vw;
+    }
+
+
+    .leoo{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 3.636vw;
+    }
+
+
+    
+    .projects-texts-container-start{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; 
+        gap: 3.636vw; 
+    }
+
+    .projects-texts-container-end{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end; 
+        gap: 3.636vw; 
+    }
+
+
+    .project-card-explanation{
+        margin-top: 0.5vw;
+        width: 86.36vw;
+    }
+    
+    .project-card-dark{
+        background-color: #241A15;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .project-card-dark:hover{
+        background-color: #F1EBDC;
+    }
+
+    .project-card-dark:hover .stonebeige {
+        color: #5F3413;
+    }
+
+    
+    .project-card-light{
+        background-color: #F1EBDC;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .project-card-light:hover{
+        background-color: #241A15;
+    }
+
+    .project-card-light:hover .browndrapes {
+        color: #F1EBDC;
+    }
+
+
+    .open-button-dark{
+        width: 10.42vw;
+        height: 3.33vw;
+        padding: 0.55vw 2.77vw;
+        border-width: 1px;
+        background-color: transparent;
+        border-style:solid;
+        border-color:#F1EBDC;
+        border-radius: 16px;
+    }
+
+
+    .open-button-dark:hover{
+        background-color: #F1EBDC;
+        color: #150903;
+        border-color: #150903;
+        cursor: pointer;
+    }
+
+    .open-button-dark:hover .stonebeige {
+        color: #5F3413;
+    }
+
+    .open-button-light{
+        width: 10.42vw;
+        height: 3.33vw;
+        padding: 0.55vw 2.77vw;
+        border-width: 1px;
+        background-color: transparent;
+        border-style:solid;
+        border-color:#150903;
+        border-radius: 16px;
+    }
+
+
+    .open-button-light:hover{
+        background-color: #150903;
+        color: #F1EBDC;
+        border-color: #F1EBDC;
+        cursor: pointer;
+    }
+
+    .open-button-light:hover .stonebeige {
+        color: #F1EBDC;
+    }
+
+    .leoo {
+        margin-left: 4.44vw;
+        margin-top: 3vw;
+        margin-right: auto;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 1.67vw;
+        flex-direction: column-reverse;
+    }
+
+    .leoo-img{
+        width: 66.53vw;
+        height: 33.89vw;
+    }
+
+    .leoo-texts{
+        width: 21.25vw; 
+        height: 12.85vw;      
+        padding-right: 2vw;  
+        padding-left: 2vw;
+        margin-top: 12vw;
+        
+    }
+
+
+    .paw {
+        margin-right: 7.57vw;
+        margin-left: auto;
+        margin-top: 5vw;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 1.67vw;
+    }
+
+    .paw-img{
+        width: 30.56vw;
+        height: 30.56vw;
+    }
+
+    .paw-texts{
+        width: 21.25vw; 
+        height: 10.35vw;        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin-top: 10.5vw;
+    }
+
 
     .mobile-exhibition{
         margin-top: 12vw;

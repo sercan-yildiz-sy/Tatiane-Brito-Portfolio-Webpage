@@ -16,5 +16,8 @@ const swiper = new Swiper('.swiper', {
     768 :{
       slidesPerView: 1.35,
     }
-  }
+  },
+   mousewheel: {
+        forceToAxis: true,
+      }
 });
