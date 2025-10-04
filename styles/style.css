@@ -25,17 +25,25 @@ html {
     h1{
         font-family: 'Cinzel Decorative', serif;
         font-size: clamp(3rem, 9vw, 10rem);
+        margin:0;
+        line-height: 1;
     }
 
     h2{   
         font-family: 'Cinzel', serif;
         font-size: clamp(1.5rem, 3.33vw, 3.5rem);
+        margin:0;
+        line-height: 1;
+
     }
 
     h3 {
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(1.25rem, 2.8vw, 3rem);
+        margin:0;
+        line-height: 1;
+
     }
 
     em{
@@ -43,54 +51,65 @@ html {
         font-style: italic;
         font-size: clamp(0.875rem, 1.17vw, 1.3rem);
         white-space: nowrap;
+        line-height: 1;
     }
 
     .tags{  
         font-family: 'Buenard', serif;
         font-weight: 400;
         font-size: clamp(1rem, 1.75vw, 1.75rem); 
+        line-height: 1;
     }
     
     .tags-bold{  
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(1rem, 1.75vw, 1.75rem); 
+        line-height: 1;
     }
 
     .ctas {
-        font-family: 'Cinzel Decorative', serif !important;
+        font-family: 'Buenard', serif !important;
+        font-weight: 700;
         font-size: clamp(1rem, 1.66vw, 1.625rem);
+        line-height: 1;
     }
 
 
     .para{
         font-family: 'Buenard', serif;
         font-weight: 400;
-        font-size: clamp(0.875rem, 1.14vw, 1.3rem);
+        font-size: clamp(0.875rem, 1.111vw, 1.3rem);
+        line-height: 1;
+
     }
 
     .parabold{
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(0.875rem, 1.14vw, 1.3rem);
+        line-height: 1;
     }
 
     .captions{
         font-family: 'Buenard', serif;
         font-weight: 400;
         font-size: clamp(0.8125rem, 0.97vw, 1rem);
+        line-height: 1;
     }
 
     .dynalight{
         font-family: 'Dynalight', cursive;
         font-size: clamp(1.5rem, 3vw, 3rem);
         color: #FFFFFF;
+        line-height: 1;
     }
 
 
     ol li::marker, ul li::marker {
         font-family: 'Buenard', serif;
         font-weight: 400;
+        
     }
 
     footer{
