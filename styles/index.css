@@ -183,78 +183,88 @@
     }
 
     .curtain-wrapper {
-        position: relative;
         width: 100%;
         height: 88vw;
-    }
-
-    .left-curtain {
-        position: absolute;
-        top: -4.1vw;
-        left: 0;
-        width: 50.07vw;
-        height: 85vw;
-        transform: scaleX(-1);
-        z-index: 13;
-    }
-
-    .right-curtain {
-        position: absolute;
-        top: -4.1vw;
-        right: 0;
-        width: 50.07vw;
-        height: 85vw;
-        z-index: 12;
-    }
-    
-    .hand{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: -4vw;
+        z-index: 11;
         position: relative;
-        top: 51.5vw;
-        width: 36.54vw;
-        height: 33.76vw;
-        left: 1vw;
+        
     }
+
+    .left-curtain, .right-curtain{
+        width: 50.07vw;
+        height: 85vw;
+    }
+
+    .left-curtain{
+        transform: scaleX(-1);
+    }
+
+
+    
+    .bust-texts{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.25vw;
+    }
+
+    .bust-texts p{
+        margin:0;
+    }
+
+
 
     .center-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -71vw; 
+        margin-top: -67vw; 
         position: relative;
-        z-index: 14; 
         text-align: center;
+        gap: 3.33vw;
     }
 
     .profile-pic {
         width: 20.83vw;
         height: 31.25vw;
         object-fit: cover;
-        margin-bottom: 3vw;
     }
 
-    .the-face{
-        margin-top: -1.5vw;
+    
+    .skill-texts{
+        width: 100%;
+        position: relative;
+        margin-top: 10vw;
     }
 
-    .learned{
-        width: 36.32vw;
-        margin-top: -0.5vw;
+    .hand {
+        width: 36.54vw;
+        height: 33.76vw;
+        position: absolute;
+        left: 0; 
+        top: -18vw;
     }
 
-    .skills-text{
-        margin-top: 9vw;
-        margin-bottom: -2vw;
+    .skill-texts h3{
+        margin-top:0.75vw;
     }
+    
+    
+
 
     .skills-section{
         max-width: 80vw;
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
         gap: 2.22vw;
         flex-wrap: wrap;
-        left:auto;
-        right:auto;
         position: relative;
-        margin-top: 2vw;
     }
 
     .skills-card{
@@ -281,7 +291,7 @@
 
     .skills-experience{
         color: rgba(241, 235, 220, 0.72);
-        margin-top: -1.2vw;
+        margin-top: -0.2vw;
     }
 
     .left-column{
