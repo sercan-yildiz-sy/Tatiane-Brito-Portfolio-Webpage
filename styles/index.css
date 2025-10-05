@@ -178,9 +178,6 @@
         height: 3.33vw;
     }
 
-    #about{
-        height:182.56vw;
-    }
 
     .curtain-wrapper {
         width: 100%;
@@ -188,7 +185,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: -4vw;
         z-index: 11;
         position: relative;
         
@@ -294,6 +290,41 @@
         margin-top: -0.2vw;
     }
 
+    .core-competencies{
+        margin-top: 1.73vw;
+        display:flex;
+        flex-direction: column;
+        gap: 3.33vw;
+        
+    }
+
+    .soft-skills{
+        display:flex;
+        flex-direction: row;
+        gap: 2.64vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .soft-skills-card{
+        display: flex;
+        flex-direction: column;
+        gap:1.6vw;
+        justify-content: center;
+        align-items: center;
+        background-color: #941B2D;
+        border-radius: 32px;
+        width: 11.111vw;
+        height: 16.18vw;
+    }
+
+    .soft-skills-card img {
+        max-width: 7.77vw;
+    }
+    .soft-skills-card figcaption{
+        width: 7.7vw;
+    }
+
     .left-column{
         position: absolute;
         left: 0;
@@ -311,7 +342,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 20vw; 
+        margin-top: 15vw; 
         position: relative;
         text-align: center;
         gap: 0vw;
