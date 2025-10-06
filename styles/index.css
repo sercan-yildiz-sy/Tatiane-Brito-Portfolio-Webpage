@@ -187,6 +187,7 @@
         justify-content: space-between;
         z-index: 11;
         position: relative;
+        margin-top:-4vw;
         
     }
 
@@ -295,7 +296,6 @@
         display:flex;
         flex-direction: column;
         gap: 3.33vw;
-        
     }
 
     .soft-skills{
@@ -321,30 +321,40 @@
     .soft-skills-card img {
         max-width: 7.77vw;
     }
+
     .soft-skills-card figcaption{
         width: 7.7vw;
     }
+    .contact-me{
+        position: relative;
+        margin-top: 25vw; 
+        min-height: 46.5vw; 
+        margin-bottom: 15vw; /* Space between contact section bottom and footer */
+
+    }
+
+
+    .left-column, .right-column{
+        position: absolute;
+        bottom:0;
+
+    }
 
     .left-column{
-        position: absolute;
         left: 0;
-        bottom: 0;
     }
 
     .right-column{
-        position: absolute;
         right: 0;
-        bottom: 0;
         transform: scaleX(-1);
     }
 
+    
    .contact-texts {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 15vw; 
-        position: relative;
-        text-align: center;
+        position: relative; 
         gap: 0vw;
     }
 
