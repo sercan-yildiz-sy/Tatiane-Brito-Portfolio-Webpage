@@ -319,7 +319,7 @@
     }
 
     .soft-skills-card img {
-        max-width: 7.77vw;
+        width: 7.77vw;
     }
 
     .soft-skills-card figcaption{
@@ -328,16 +328,15 @@
     .contact-me{
         position: relative;
         margin-top: 25vw; 
-        min-height: 46.5vw; 
-        margin-bottom: 15vw; /* Space between contact section bottom and footer */
-
+        min-height: 46.5vw;
     }
 
 
     .left-column, .right-column{
         position: absolute;
         bottom:0;
-
+        width: 19.51vw;
+        height: 56.52vw;
     }
 
     .left-column{
@@ -350,6 +349,7 @@
     }
 
     
+
    .contact-texts {
         display: flex;
         flex-direction: column;
