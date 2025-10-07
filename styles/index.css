@@ -323,6 +323,7 @@
     .soft-skills-card figcaption{
         width: 7.7vw;
     }
+
     .contact-me{
         position: relative;
         margin-top: 25vw; 
@@ -394,9 +395,7 @@
     .send-button{
         padding: 0.55vw 2.77vw;
         border-radius: 16px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #5F3413;
+        background-color: #150903;
     }
 
     .contact-logos{
@@ -622,13 +621,6 @@
         transform: scaleX(-1);
     }
     
-    .hand{
-        position: absolute;
-        top: 124.5vw;
-        width: 30.73vw;
-        left: 0vw;
-        right: auto;
-    }
 
     .center-content {
         display: flex;
@@ -656,9 +648,24 @@
         margin-top: -0.5vw;
     }
 
-    .skills-text{
-        margin-top: 9vw;
+    .skill-texts{
+        width: 100%;
+        position: relative;
+        margin-top: 15vw;
     }
+
+    .hand {
+        width: 29.54vw;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: -26vw;
+    }
+
+    .skill-texts h3{
+        margin-top:0.75vw;
+    }
+    
 
     .skills-section{
         max-width: 92.7vw;
@@ -699,79 +706,125 @@
         margin-top: -4.2vw;
     }
 
-    .left-column{
-        position: absolute;
-        left: 0;
-        bottom: 31.6vw;
-        box-sizing: border-box;
 
+    .core-competencies{
+        margin-top: 1.73vw;
+        display:flex;
+        flex-direction: column;
+        gap: 3.33vw;
+    }
+
+    .soft-skills{
+        display:flex;
+        flex-direction: row;
+        gap: 2.64vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .soft-skills-card{
+        display: flex;
+        flex-direction: column;
+        gap:1.6vw;
+        justify-content: center;
+        align-items: center;
+        background-color: #941B2D;
+        border-radius: 32px;
+        width: 29.54vw;
+        height: 44.54vw;
+    }
+
+    .soft-skills-card img {
+        width: 20vw;
+    }
+
+    .soft-skills-card figcaption{
+        width: 20vw;
+    }
+
+    .contact-me{
+        position: relative;
+        margin-top: 35vw; 
+        min-height: 145vw;
+        
+    }
+
+
+    .left-column, .right-column{
+        position: absolute;
+        bottom: 15vw;
+        width: auto;
+        height: 157.72vw;
+    }
+
+    .left-column{
+        left: 0;
     }
 
     .right-column{
-        position: absolute;
         right: 0;
-        bottom: 31.6vw;
-        box-sizing: border-box;
-
     }
-    html, body {
-    overflow-x: hidden;
-}
+
    .contact-texts {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        text-align: center;
+        position: relative; 
         gap: 0vw;
-        margin-top:20vw;
-        width: 75.59vw;
+        width: 71.6vw;
         margin-left: auto;
         margin-right: auto;
     }
+    
 
     .contact-texts p {
         margin: 0; 
     }
 
+    .contact-texts h2{
+        text-align: center;
+    }
     .contact-form{
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
         text-align: center;
-        gap: 7.76vw;
+        gap: 7.27vw;
         margin-top: 2vw;
     }
 
     .contact-form-name-email{
-        width: 75.59vw;
+        width: 71.6vw;
         height: 10.91vw;
         border-radius: 16px;
         border: 1px solid #5F3413;
         background-color: transparent;
-        padding-left: 8.18vw;
+        padding-left: 2.5vw;
 
     }
 
     .contact-form-message{
-        width: 75.59vw;
-        height: 21.14vw;
+        width: 71.6vw;
+        height: 21.36vw;
         border-radius: 16px;
         background-color: transparent;
         border: 1px solid #5F3413;
-        padding-left: 8.18vw;
-        padding-top: 7vw;
+        padding-left: 2.5vw;
+        padding-top: 3vw;
         resize: none;
     }
 
-    .send-button{
-        padding: 2.5vw 8vw;
+    .send-button {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #150903;
         border-radius: 16px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #5F3413;
+        width: 24.09vw;
+        height: 10.91vw;
     }
 
     .contact-logos{
@@ -780,6 +833,11 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        gap: 7.76vw;
+        gap: 7.27vw;
     }
+    .contact-logos img{
+        width: 10.9vw;
+    }
+
+    
 }
