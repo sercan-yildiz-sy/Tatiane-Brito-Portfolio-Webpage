@@ -15,9 +15,14 @@ const swiper = new Swiper('.swiper', {
     },
     768 :{
       slidesPerView: 1.35,
+      allowTouchMove: false,
+        pagination: {
+          el: '.swiper-pagination',
+          enabled: false, 
+        }
     }
   },
    mousewheel: {
         forceToAxis: true,
-      }
+      },
 });
