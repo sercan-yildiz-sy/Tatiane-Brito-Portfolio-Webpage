@@ -4,22 +4,15 @@
     .background {
         position: relative;
         width: 100%;
-        height: 120.41vw;
-        overflow: hidden;
-        pointer-events: none;
-
-    }
-
-    .background::before {
-        content: "";
-        position: absolute;
-        inset: 0;   
-        background-image: url('../images/bigscreen/background-enterance.png');
+        height: 116.59vw;
+        overflow: hidden;        
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        z-index: -1; 
+        background-image: url('../images/bigscreen/background-enterance.png');
+
     }
+
 
     .main-nav {
         z-index: 10;
@@ -29,7 +22,6 @@
         width: 30vw;
         transform-origin: left top;
         transform:rotate(-90deg) translateX(-100%);
-        pointer-events: auto;
 
     }
 
@@ -55,47 +47,53 @@
     }
 
 
-    .main-text-container {
-        margin-top: -100vw;
-        z-index: 101;
-        text-align: center;
-    }
-
-    .name {
-        display: block;
-        margin-left: 20.5vw;
-        margin-top: -2.4vw;
-    }
-
-    .dive {
-        margin-top: 33.5vw;
-    }
-
-    .me-designer {
-        margin-top: 6vw;
-        width: 45vw;
+    .main-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 52vw;
         margin-left: auto;
         margin-right: auto;
+        gap:1vw;
+        margin-top:5.9vw;
     }
 
-    .i-believe {
-        margin-top: 4vw;
-        width: 33vw;
-        margin-left: auto;
-        margin-right: auto;
+    .name{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2vw;
     }
+
+
+    .description{
+        display:flex;
+        flex-direction: column;
+        gap:1.111vw;
+    }
+
+
 
     .about-me-button {
-        display: inline-block;
-        margin-top: 8vw;
-        border-width: 1px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #F1EBDC;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F1EBDC;
         border-radius: 16px;
-        padding: 0.55vw 2.77vw;
+        width: 12.36vw;
+        height: 3.33vw;
     }
 
+    .dive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32.8vw;
+        text-align: center;
+        gap:2.82vw;
+    
+    }
 
     .project-background{
         position: relative;
@@ -103,31 +101,36 @@
             to bottom,
             rgba(21, 9, 3, 0) 0,
             rgba(21, 9, 3, 1) 10.7vw,
-            #150903 86.32vw
+            #150903 29.93vw
         );
-        height: 86.32vw;
+        height: 29.93vw;
         background-repeat: no-repeat;
         background-size: 100% auto; 
         z-index: 10;
-        margin-top: 3.7vw;
+        margin-top: -10.7vw;
 
     }
+
     
     .project-container{
         position: relative;
         width: 100%;
-        height: 86.32vw;
+        height: 29.93vw;;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 1.667vw;
-       
     }
 
 
     .project-container p, .project-container h2{
         margin: 0;
+    }
+
+     .project-container h2{
+        margin-top: -40.7vw;
+        margin-bottom: -1.6vw;
     }
 
 
@@ -159,94 +162,104 @@
         width: 66.53vw;
     }
 
+    .swiper-pagination{
+        display: none;
+    }
 
-    .see-all-button{
-        box-sizing: border-box;
-        border-width: 1px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #F1EBDC;
+     .see-all-button {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F1EBDC;
         border-radius: 16px;
-        padding: 0.55vw 2.77vw;
+        width: 12.36vw;
+        height: 3.33vw;
     }
 
-    #about{
-        height:182.56vw;
-    }
 
     .curtain-wrapper {
-        position: relative;
         width: 100%;
         height: 88vw;
-    }
-
-    .left-curtain {
-        position: absolute;
-        top: -4.1vw;
-        left: 0;
-        width: 50.07vw;
-        height: 85vw;
-        transform: scaleX(-1);
-        z-index: 13;
-    }
-
-    .right-curtain {
-        position: absolute;
-        top: -4.1vw;
-        right: 0;
-        width: 50.07vw;
-        height: 85vw;
-        z-index: 12;
-    }
-    
-    .hand{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 11;
         position: relative;
-        top: 51.5vw;
-        width: 36.54vw;
-        height: 33.76vw;
-        left: 1vw;
+        margin-top:-4vw;
+        
     }
+
+    .left-curtain, .right-curtain{
+        width: 50.07vw;
+        height: 85vw;
+    }
+
+    .left-curtain{
+        transform: scaleX(-1);
+    }
+
+
+    
+    .bust-texts{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5vw;
+    }
+
+    .bust-texts p{
+        margin:0;
+        width: 36vw;
+    }
+
+
 
     .center-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -71vw; 
+        margin-top: -67vw; 
         position: relative;
-        z-index: 14; 
         text-align: center;
+        gap: 3.33vw;
     }
 
     .profile-pic {
         width: 20.83vw;
         height: 31.25vw;
         object-fit: cover;
-        margin-bottom: 3vw;
     }
 
-    .the-face{
-        margin-top: -1.5vw;
+    
+    .skill-texts{
+        width: 100%;
+        position: relative;
+        margin-top: 10vw;
     }
 
-    .learned{
-        width: 36.32vw;
-        margin-top: -0.5vw;
+
+    .hand {
+        width: 36.54vw;
+        height: 33.76vw;
+        position: absolute;
+        left: 0; 
+        top: -18vw;
     }
 
-    .skills-text{
-        margin-top: 9vw;
-        margin-bottom: -2vw;
+    .skill-texts h3{
+        margin-top:-0.5vw;
     }
+    
 
     .skills-section{
         max-width: 80vw;
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
         gap: 2.22vw;
         flex-wrap: wrap;
-        left:auto;
-        right:auto;
         position: relative;
-        margin-top: 2vw;
     }
 
     .skills-card{
@@ -259,43 +272,97 @@
         height: 8.05vw;        
         box-sizing: border-box;
     }
+    .skills-card-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; 
+    }
 
-    .skills-card img{
+    .skills-card-inner img{
         width: 5.556vw;
         border-radius: 16px;
         object-fit: cover;
     }
 
     .skills-card-text{
-        padding-left: 1.67vw;
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5vw;
+        padding-left: 1.667vw;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .skills-experience{
         color: rgba(241, 235, 220, 0.72);
-        margin-top: -1.2vw;
+        margin-top: -1.5vw;
+    }
+
+    .core-competencies{
+        margin-top: 1.73vw;
+        display:flex;
+        flex-direction: column;
+        gap: 3.33vw;
+    }
+
+    .soft-skills{
+        display:flex;
+        flex-direction: row;
+        gap: 2.64vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .soft-skills-card{
+        display: flex;
+        flex-direction: column;
+        gap:1.6vw;
+        justify-content: center;
+        align-items: center;
+        background-color: #941B2D;
+        border-radius: 32px;
+        width: 11.111vw;
+        height: 16.18vw;
+    }
+
+    .soft-skills-card img {
+        width: 7.77vw;
+    }
+
+    .soft-skills-card figcaption{
+        width: 7.7vw;
+    }
+
+    .contact-me{
+        position: relative;
+        margin-top: 15vw; 
+        min-height: 46.5vw;
+    }
+
+
+    .left-column, .right-column{
+        position: absolute;
+        bottom:0;
+        width: 19.51vw;
+        height: 56.52vw;
     }
 
     .left-column{
-        position: absolute;
         left: 0;
-        bottom: 0;
     }
 
     .right-column{
-        position: absolute;
         right: 0;
-        bottom: 0;
         transform: scaleX(-1);
     }
+
+    
 
    .contact-texts {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 20vw; 
-        position: relative;
-        text-align: center;
+        position: relative; 
         gap: 0vw;
     }
 
@@ -337,9 +404,7 @@
     .send-button{
         padding: 0.55vw 2.77vw;
         border-radius: 16px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #5F3413;
+        background-color: #150903;
     }
 
     .contact-logos{
@@ -349,6 +414,9 @@
         justify-content: center;
         text-align: center;
         gap: 2.222vw;
+    }
+    .contact-logos img{
+        width:4.44vw;
     }
 }
 
@@ -362,7 +430,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 276.137vw;
+        height: 296.14vw;
         overflow: hidden;
         z-index: -1;
     }
@@ -383,91 +451,104 @@
 
     }
 
-      .nav-item:hover{
+    .nav-item:hover{
         color: #FAF6EB;
     }
 
-    .main-text-container {
-        margin-top: -202vw;
-        z-index: 10;
-        text-align: center;
-    }
-
-    .name {
-        display: block;
-        margin-left: 33.5vw;
-        margin-top: -3.5vw;
-    }
-
-    .dive {
-        margin-top: 58vw;
-    }
-
-    .me-designer {
-        margin-top: 24vw;
+    .main-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         width: 85.45vw;
         margin-left: auto;
         margin-right: auto;
+        gap: 7.27vw;
+        margin-top: 18vw;
     }
 
-    .i-believe {
-        margin-top: 4vw;
-        width: 85.45vw;
-        margin-left: auto;
-        margin-right: auto;
+    .name{
+        display: flex;
+        flex-direction: column;
+        gap: 1.667vw;
     }
 
+    .name h1{
+        margin-top: 1.81vw;
+        margin-bottom: 1vw;
+    }
+
+    .description{
+        display:flex;
+        flex-direction: column;
+        gap: 3.8vw;
+    }
+
+    .main-text-container p{
+        margin:0;
+    }
+    
     .about-me-button {
-        display: inline-block;
-        margin-top: 8vw;
-        border-width: 1px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #F1EBDC;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F1EBDC;
         border-radius: 16px;
-        padding: 2.5vw 8vw;
+        width: 33.18vw;
+        height: 10.91vw;
     }
 
+    .dive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 58.18vw;
+        text-align: center;
+        gap:2.92vw;
+    
+    }
+    
 
     .project-background{
-        background: linear-gradient(
-            to bottom,
-            rgba(21, 9, 3, 0) 0,
-            rgba(21, 9, 3, 1) 10.7vw,
-            #150903 149.54vw
-        );
-        height: 149.54vw;
+        background: #150903;
+        height: 50.6818vw;
         background-repeat: no-repeat;
-        background-size: 100% auto; 
-        z-index: 10;
-        margin-top: 5.7vw;
+        margin-top: -0.1vw;
 
     }
     
     .project-container{
         position: relative;
         width: 100%;
-        height: 149.54vw;
+        height: 50.6818;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 7.27vw;
+        gap: 5.45vw;
        
+    }
+    
+    .project-container p, .project-container h2{
+        margin: 0;
     }
 
     .project-container h2{
-        margin: -5.45vw;
+        margin-top: -95vw;
+        margin-bottom: -3vw;
     }
     
-    .project-container p{
-        margin: 0;
-    }
     
     .swiper {
         width: 100vw;
         overflow: visible;
+        display: flex;
+        flex-direction: column;
+        gap: 5.45vw;
     } 
+
+
 
     .swiper-slide {
         display: flex;
@@ -488,55 +569,68 @@
         width: 73.64vw;
     }
 
+    .swiper-pagination {
+        width: clamp(8px, 1.81vw, 14px);
+        height: clamp(8px, 1.81vw, 14px);
+        position: relative;
+        display: flex;
+        gap: 1.818vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+        background-color: #5F3413;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #F1EBDC;
+    }
+
 
     .see-all-button{
-        box-sizing: border-box;
-        border-width: 1px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #F1EBDC;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F1EBDC;
         border-radius: 16px;
-        padding: 2.5vw 8vw;
-        margin-top:10vw;
+        width: 26.818vw;
+        height: 10.91vw;
     }
 
-    #about{
-        height:524.54vw;
+
+
+    .left-curtain, .right-curtain{
+        width: 50vw;
+        height: auto;
     }
 
-    
+    .left-curtain{
+        transform: scaleX(-1);
+    }
+
+
     .curtain-wrapper {
         position: relative;
         width: 100%;
         height: 88vw;
-    }
-
-    .left-curtain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 11;
         position: relative;
-        top: -4.1vw;
-        left: 0;
-        width: 50vw;
-        height: auto;
-        transform: scaleX(-1);
-        z-index: 13;
+        margin-top:-4vw;
     }
 
-    .right-curtain {
-        position: absolute;
-        top: -4.1vw;
-        right: 0;
+     .left-curtain, .right-curtain{
         width: 50vw;
         height: auto;
-        z-index: 12;
+    }
+
+    .left-curtain{
+        transform: scaleX(-1);
     }
     
-    .hand{
-        position: absolute;
-        top: 124.5vw;
-        width: 30.73vw;
-        left: 0vw;
-        right: auto;
-    }
 
     .center-content {
         display: flex;
@@ -564,9 +658,24 @@
         margin-top: -0.5vw;
     }
 
-    .skills-text{
-        margin-top: 9vw;
+    .skill-texts{
+        width: 100%;
+        position: relative;
+        margin-top: 15vw;
     }
+
+    .hand {
+        width: 29.54vw;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: -26vw;
+    }
+
+    .skill-texts h3{
+        margin-top:0.75vw;
+    }
+    
 
     .skills-section{
         max-width: 92.7vw;
@@ -607,79 +716,125 @@
         margin-top: -4.2vw;
     }
 
-    .left-column{
-        position: absolute;
-        left: 0;
-        bottom: 31.6vw;
-        box-sizing: border-box;
 
+    .core-competencies{
+        margin-top: 1.73vw;
+        display:flex;
+        flex-direction: column;
+        gap: 3.33vw;
+    }
+
+    .soft-skills{
+        display:flex;
+        flex-direction: row;
+        gap: 2.64vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .soft-skills-card{
+        display: flex;
+        flex-direction: column;
+        gap:1.6vw;
+        justify-content: center;
+        align-items: center;
+        background-color: #941B2D;
+        border-radius: 32px;
+        width: 29.54vw;
+        height: 44.54vw;
+    }
+
+    .soft-skills-card img {
+        width: 20vw;
+    }
+
+    .soft-skills-card figcaption{
+        width: 20vw;
+    }
+
+    .contact-me{
+        position: relative;
+        margin-top: 35vw; 
+        min-height: 145vw;
+        
+    }
+
+
+    .left-column, .right-column{
+        position: absolute;
+        bottom: 15vw;
+        width: auto;
+        height: 157.72vw;
+    }
+
+    .left-column{
+        left: 0;
     }
 
     .right-column{
-        position: absolute;
         right: 0;
-        bottom: 31.6vw;
-        box-sizing: border-box;
-
     }
-    html, body {
-    overflow-x: hidden;
-}
+
    .contact-texts {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        text-align: center;
+        position: relative; 
         gap: 0vw;
-        margin-top:20vw;
-        width: 75.59vw;
+        width: 71.6vw;
         margin-left: auto;
         margin-right: auto;
     }
+    
 
     .contact-texts p {
         margin: 0; 
     }
 
+    .contact-texts h2{
+        text-align: center;
+    }
     .contact-form{
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
         text-align: center;
-        gap: 7.76vw;
+        gap: 7.27vw;
         margin-top: 2vw;
     }
 
     .contact-form-name-email{
-        width: 75.59vw;
+        width: 71.6vw;
         height: 10.91vw;
         border-radius: 16px;
         border: 1px solid #5F3413;
         background-color: transparent;
-        padding-left: 8.18vw;
+        padding-left: 2.5vw;
 
     }
 
     .contact-form-message{
-        width: 75.59vw;
-        height: 21.14vw;
+        width: 71.6vw;
+        height: 21.36vw;
         border-radius: 16px;
         background-color: transparent;
         border: 1px solid #5F3413;
-        padding-left: 8.18vw;
-        padding-top: 7vw;
+        padding-left: 2.5vw;
+        padding-top: 3vw;
         resize: none;
     }
 
-    .send-button{
-        padding: 2.5vw 8vw;
+    .send-button {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #150903;
         border-radius: 16px;
-        background-color: transparent;
-        border-style: solid;
-        border-color: #5F3413;
+        width: 24.09vw;
+        height: 10.91vw;
     }
 
     .contact-logos{
@@ -688,6 +843,11 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        gap: 7.76vw;
+        gap: 7.27vw;
     }
+    .contact-logos img{
+        width: 10.9vw;
+    }
+
+    
 }

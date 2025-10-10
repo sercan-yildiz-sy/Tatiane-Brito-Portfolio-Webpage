@@ -6,7 +6,7 @@ const swiper = new Swiper('.swiper', {
 
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    clickable: true
   },
   breakpoints:{
     0:{
@@ -15,9 +15,10 @@ const swiper = new Swiper('.swiper', {
     },
     768 :{
       slidesPerView: 1.35,
+        
     }
   },
    mousewheel: {
         forceToAxis: true,
-      }
+      },
 });

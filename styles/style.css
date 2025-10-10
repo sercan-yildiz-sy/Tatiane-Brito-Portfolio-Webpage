@@ -6,11 +6,6 @@ a{
         text-decoration: none;
     }
 
-html {
-  font-size: 14px;
-  position: relative;
-  min-height: 100%;
-}
 
 .btn:focus,
 .btn:active:focus,
@@ -22,75 +17,90 @@ html {
 
 @media (min-width: 768px) {
 
-    h1{
-        font-family: 'Cinzel Decorative', serif;
-        font-size: clamp(3rem, 9vw, 10rem);
-    }
+    h1 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(3rem, 9vw, 10rem);
+  margin: 0;
+  line-height: 1.08; /* Large display heading, keep tight but not cramped */
+}
 
-    h2{   
-        font-family: 'Cinzel', serif;
-        font-size: clamp(1.5rem, 3.33vw, 3.5rem);
-    }
+h2 {   
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.5rem, 3.33vw, 3.5rem);
+  margin: 0;
+  line-height: 1.15; /* Slightly more open, good for readability */
+}
 
-    h3 {
-        font-family: 'Buenard', serif;
-        font-weight: 700;
-        font-size: clamp(1.25rem, 2.8vw, 3rem);
-    }
+h3 {
+  font-family: 'Buenard', serif;
+  font-weight: 700;
+  font-size: clamp(1.25rem, 2.8vw, 3rem);
+  margin: 0;
+  line-height: 1.25; /* Good balance for serif subheadings */
+}
 
-    em{
-        font-family: 'Crimson Text', serif;
-        font-style: italic;
-        font-size: clamp(0.875rem, 1.17vw, 1.3rem);
-        white-space: nowrap;
-    }
+em {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: clamp(0.875rem, 1.17vw, 1.3rem);
+  white-space: nowrap;
+  line-height: 1.2; /* Gives italics breathing room */
+}
 
-    .tags{  
-        font-family: 'Buenard', serif;
-        font-weight: 400;
-        font-size: clamp(1rem, 1.75vw, 1.75rem); 
-    }
+.tags {  
+  font-family: 'Buenard', serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 1.75vw, 1.75rem);
+  line-height: 1.3; /* Matches Figma “Auto” for Buenard */
+}
     
-    .tags-bold{  
-        font-family: 'Buenard', serif;
-        font-weight: 700;
-        font-size: clamp(1rem, 1.75vw, 1.75rem); 
-    }
+.tags-bold {  
+  font-family: 'Buenard', serif;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.75vw, 1.75rem);
+  line-height: 1.3; /* same spacing, even though bold */
+}
 
-    .ctas {
-        font-family: 'Cinzel Decorative', serif !important;
-        font-size: clamp(1rem, 1.66vw, 1.625rem);
-    }
+.ctas {
+  font-family: 'Buenard', serif !important;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.66vw, 1.625rem);
+  line-height: 1.2; /* tighter, for button-style CTAs */
+}
 
+.para {
+  font-family: 'Buenard', serif;
+  font-weight: 400;
+  font-size: clamp(0.875rem, 1.111vw, 1.3rem);
+  line-height: 1; /* as per your spec: 16px line height on 16px text */
+}
 
-    .para{
-        font-family: 'Buenard', serif;
-        font-weight: 400;
-        font-size: clamp(0.875rem, 1.14vw, 1.3rem);
-    }
+.parabold {
+  font-family: 'Buenard', serif;
+  font-weight: 700;
+  font-size: clamp(0.875rem, 1.14vw, 1.3rem);
+  line-height: 1; /* same as paragraph */
+}
 
-    .parabold{
-        font-family: 'Buenard', serif;
-        font-weight: 700;
-        font-size: clamp(0.875rem, 1.14vw, 1.3rem);
-    }
+.captions {
+  font-family: 'Buenard', serif;
+  font-weight: 400;
+  font-size: clamp(0.8125rem, 0.97vw, 1rem);
+  line-height: 1.2; /* slightly looser for small text */
+}
 
-    .captions{
-        font-family: 'Buenard', serif;
-        font-weight: 400;
-        font-size: clamp(0.8125rem, 0.97vw, 1rem);
-    }
-
-    .dynalight{
-        font-family: 'Dynalight', cursive;
-        font-size: clamp(1.5rem, 3vw, 3rem);
-        color: #FFFFFF;
-    }
+.dynalight {
+  font-family: 'Dynalight', cursive;
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  color: #FFFFFF;
+  line-height: 1; /* decorative script, should stay tight */
+}
 
 
     ol li::marker, ul li::marker {
         font-family: 'Buenard', serif;
         font-weight: 400;
+        
     }
 
     footer{
@@ -105,69 +115,85 @@ html {
 
 @media (max-width: 767px) {
 
-    h1{
+    h1 {
         font-family: 'Cinzel Decorative', serif;
         font-size: clamp(2.5rem, 14.55vw, 5rem);
+        margin: 0;
+        line-height: 1.08;
     }
 
-    h2{   
+    h2 {
         font-family: 'Cinzel', serif;
         font-size: clamp(1.375rem, 7.73vw, 2.5rem);
+        margin: 0;
+        line-height: 1.341;
+        letter-spacing: -0.04em; 
     }
 
     h3 {
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(1.125rem, 5.45vw, 2rem);
+        margin: 0;
+        line-height: 1.3; 
     }
 
-    em{
+    em {
         font-family: 'Crimson Text', serif;
         font-style: italic;
         font-size: clamp(0.75rem, 3.18vw, 1rem);
         white-space: nowrap;
+        line-height: 1.25; 
     }
 
-    .tags{  
+    .tags {  
         font-family: 'Buenard', serif;
         font-weight: 400;
         font-size: clamp(1rem, 4.55vw, 1.5rem);
+        line-height: 1.3; 
+        letter-spacing: 0;
     }
-    
-    .tags-bold{  
+
+    .tags-bold {  
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(1rem, 4.55vw, 1.5rem);
+        line-height: 1.3; 
     }
 
     .ctas {
-        font-family: 'Cinzel Decorative', serif !important;
+        font-family: 'Buenard', serif !important;
+        font-weight: 700;
         font-size: clamp(1rem, 4.55vw, 1.5rem);
+        line-height: 1.3; 
     }
 
-
-    .para{
+    .para {
         font-family: 'Buenard', serif;
         font-weight: 300;
         font-size: clamp(0.875rem, 3.64vw, 1.25rem);
+        line-height: 1.5; 
     }
 
-    .parabold{
+    .parabold {
         font-family: 'Buenard', serif;
         font-weight: 700;
         font-size: clamp(0.875rem, 3.64vw, 1.25rem);
+        line-height: 1.5; 
     }
 
-    .captions{
+    .captions {
         font-family: 'Buenard', serif;
         font-weight: 400;
         font-size: clamp(0.75rem, 3.18vw, 1rem);
+        line-height: 1.3; 
     }
 
-    .dynalight{
+    .dynalight {
         font-family: 'Dynalight', cursive;
         font-size: clamp(1.25rem, 7.27vw, 2.5rem);
         color: #FFFFFF;
+        line-height: 1; 
     }
 
     .smallcopy{
@@ -188,7 +214,7 @@ html {
     footer{
         position: absolute;
         text-align: center;
-        bottom: 15vw;
+        bottom: 0;
         width: 100%;
     }
 

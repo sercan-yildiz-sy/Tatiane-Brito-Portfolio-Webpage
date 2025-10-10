@@ -20,8 +20,9 @@
 
 
     </head>
-    <body>      
-        <header class="background">
+    <body>   
+           
+        <section class="background">
             <nav class="main-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -35,20 +36,30 @@
                     </li>
                 </ul>
             </nav>
-        </header>
+        
 
 
-        <div class="main-text-container">
-            <h1 class="stonebeige ">WELCOME</h1>
-            <p class="dynalight stonebeige name">- Tati Brito.</p>
-            <p class="tags stonebeige dive">Dive into my world.</p>
-            <h3 class="stonebeige me-designer">Nice to see you here. I’m Tati, UX Designer and Marketing Enthusiastic.</h3>
-            <p class="para stonebeige i-believe">I believe that all design should connect people and create meaningful value, while holding space for artistic expression.</p>
-            <a href="#about" >
-                <span class="ctas stonebeige about-me-button">ABOUT ME</span>
-            </a>      
- 
-        </div>
+            <section class="main-text-container">
+                <section class="name">
+                    <p class="para stonebeige">Nice to see you here, I am...</p>
+                    <h1 class="stonebeige ">Tati Brito</h1>
+                </section>
+                <section class="description">
+                    <h3 class="stonebeige">Product Designer and Marketing Specialist</h3>
+                    <p class="para stonebeige">I believe that all design should connect people and create meaningful value, while offering space for a unique expression of personality.</p>
+                </section>
+                <a href="#about" >
+                    <span class="ctas browndrapes about-me-button">About Me</span>
+                </a>     
+            </section>
+            <section class="dive">
+                <p class="stonebeige tags">Welcome and dive into my world.</p>
+                <svg width="48" height="48" viewBox="0 0 48 48">
+                    <line x1="24" y1="0" x2="24" y2="40" stroke="#F1EBDC" stroke-width="2"/>
+                    <polyline points="18,34 24,40 30,34" fill="none" stroke="#F1EBDC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </section>
+        </section>
         
         <div id="projects" class="project-container project-background">
             <h2 class="stonebeige">PROJECT HALL</h2>
@@ -129,15 +140,16 @@
                     </div>
 
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <a href="projecthall" class="ctas stonebeige see-all-button">
-                See All
+            <a href="projecthall" class="ctas browndrapes see-all-button">
+                See all
             </a> 
         </div>
                 
 
 
-        <div class="bg-stonebeige">
+        <section class="bg-stonebeige">
             <div class="curtain-wrapper">
 
                 <picture>
@@ -148,47 +160,58 @@
                     <source srcset="images/smallscreen/curtains.png" media="(max-width: 768px)">
                     <img src="images/bigscreen/Curtains.png" alt="Right Curtain" class="right-curtain"/>
                 </picture>
-                <picture>
-                    <source srcset="images/smallscreen/hand.png" media="(max-width: 768px)">
-                    <img src="images/bigscreen/hand.png" alt="Hand" class="hand"/>
-                </picture>
                 
             </div>
+
             <div id="about" class="center-content">
                 <picture>
                     <source srcset="images/smallscreen/bust.png" media="(max-width: 768px)">
                     <img src="images/bigscreen/profile-pic.png" alt="Profile Pic" class="profile-pic"/>
                 </picture>
 
-                <p class="para browndrapes">hey, that’s me! </p>
-                <h2 class="browndrapes the-face">The face behind it all.</h2>
-                <p class="para browndrapes learned">I’ve learned a few things over these past years working in such amazing projects, check it out.</p>
-                <h1 class="browndrapes skills-text">Skills</h1>
-                <h3 class="browndrapes">Technical and Programs</h3>
-            
-                <div class="skills-section">
+                <section class="bust-texts">
+                    <p class="para browndrapes">hey, that’s me! </p>
+                    <h2 class="browndrapes">The face behind it all.</h2>
+                    <p class="para browndrapes">I’ve learned a few things over these past years working in such amazing projects, check it out.</p>
+                </section>
+
+                <section class="skill-texts">
+                    <picture>
+                        <source srcset="images/smallscreen/hand.png" media="(max-width: 768px)">
+                        <img src="images/bigscreen/hand.png" alt="Hand" class="hand"/>
+                    </picture>
+
+                    <h1 class="browndrapes">Skills</h1>
+                    <h3 class="browndrapes">Technical and Programs</h3>
+                </section>
+                <section class="skills-section">
                     <div class="skills-card">
+                        <div class="skills-card-inner">
+                            <picture>
+                                <source srcset="images/smallscreen/figma.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/figma.png" alt="Figma Logo" />
+                            </picture>
+                            <div class="skills-card-text">
+                                <p class="stonebeige tags">Figma</p>
+                                <p class="para skills-experience stonebeige">2 years</p>
+                            </div>
+                        </div>
                         
-                        <picture>
-                            <source srcset="images/smallscreen/figma.png" media="(max-width: 768px)">
-                            <img src="images/bigscreen/figma.png" alt="Figma Logo" />
-                </picture>
-                        <div class="skills-card-text">
-                            <p class="stonebeige tags">Figma</p>
-                            <p class="para skills-experience stonebeige">2 years</p>
+                    </div>
+                    <div class="skills-card">
+                        <div class="skills-card-inner">
+                            <picture>
+                                <source srcset="images/smallscreen/photoshop.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/photoshop.png" alt="Photoshop Logo" />
+                            </picture>
+                            <div class="skills-card-text">
+                                <p class="stonebeige tags">Photoshop</p>
+                                <p class="para skills-experience stonebeige">2 years</p>
+                            </div>
                         </div>
                     </div>
                     <div class="skills-card">
-                        <picture>
-                            <source srcset="images/smallscreen/photoshop.png" media="(max-width: 768px)">
-                            <img src="images/bigscreen/photoshop.png" alt="Photoshop Logo" />
-                        </picture>
-                        <div class="skills-card-text">
-                            <p class="stonebeige tags">Photoshop</p>
-                            <p class="para skills-experience stonebeige">2 years</p>
-                        </div>
-                    </div>
-                    <div class="skills-card">
+                        <div class="skills-card-inner">
                         <picture>
                             <source srcset="images/smallscreen/illustrator.png" media="(max-width: 768px)">
                             <img src="images/bigscreen/illustrator.png" alt="Illustrator Logo" />
@@ -197,8 +220,10 @@
                             <p class="stonebeige tags">Illustrator</p>
                             <p class="para skills-experience stonebeige">2 years</p>
                         </div>
+                        </div>
                     </div>
                     <div class="skills-card">
+                        <div class="skills-card-inner">
                         <picture>
                             <source srcset="images/smallscreen/premiere.png" media="(max-width: 768px)">
                             <img src="images/bigscreen/premiere.png" alt="Premiere Logo" />
@@ -207,8 +232,10 @@
                             <p class="stonebeige tags">Premiere</p>
                             <p class="para skills-experience stonebeige">1 year</p>
                         </div>
+                        </div>
                     </div>
                     <div class="skills-card">
+                        <div class="skills-card-inner">
                         <picture>
                             <source srcset="images/smallscreen/indesign.png" media="(max-width: 768px)">
                             <img src="images/bigscreen/indesign.png" alt="InDesign Logo" />
@@ -217,8 +244,10 @@
                             <p class="stonebeige tags">InDesign</p>
                             <p class="para skills-experience stonebeige">1 year</p>
                         </div>
+                        </div>
                     </div>
                     <div class="skills-card">
+                        <div class="skills-card-inner">
                         <picture>
                             <source srcset="images/smallscreen/html.png" media="(max-width: 768px)">
                             <img src="images/bigscreen/html.png" alt="HTML Logo" />
@@ -227,8 +256,10 @@
                             <p class="stonebeige tags">HTML</p>
                             <p class="para skills-experience stonebeige">1 year</p>
                         </div>
+                        </div>
                     </div>
                     <div class="skills-card">
+                        <div class="skills-card-inner">
                         <picture>
                             <source srcset="images/smallscreen/trello.png" media="(max-width: 768px)">
                             <img src="images/bigscreen/trello.png" alt="Trello Logo" />
@@ -237,8 +268,10 @@
                             <p class="stonebeige tags">Trello</p>
                             <p class="para skills-experience stonebeige ">1 year</p>
                         </div>
+                        </div>
                     </div>
                     <div class="skills-card">
+                        <div class="skills-card-inner">
                         <picture>
                             <source srcset="images/smallscreen/miro.png" media="(max-width: 768px)">
                             <img src="images/bigscreen/miro.png" alt="Miro Logo" />
@@ -247,16 +280,65 @@
                             <p class="stonebeige tags">Miro</p>
                             <p class="para skills-experience stonebeige">1 year</p>
                         </div>
+                        </div>
                     </div>
                     <div class="skills-card">
+                        <div class="skills-card-inner">
                         <img src="images/bigscreen/analytics.png" alt="Analytics logo"/>
                         <div class="skills-card-text">
                             <p class="stonebeige tags">Analytics</p>
                             <p class="para skills-experience stonebeige">1 year</p>
                         </div>
+                        </div>
                     </div>
                     
-                </div>
+                </section>
+
+                
+                <section class="core-competencies">
+
+                    <h3 class="browndrapes">Core Competencies</h3>
+
+                    <section class="soft-skills">
+
+                        <figure class="soft-skills-card">
+                            <picture srcset="images/smallscreen/critical-thinking.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/critical-thinking.png" alt="Critical Thinking">
+                            </picture>
+                            <figcaption class="smallcopy para">Critical Thinking</figcaption>
+                        </figure>
+                        <figure class="soft-skills-card">
+                            <picture srcset="images/smallscreen/problem-solving.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/problem-solving.png" alt="Problem Solving">
+                            </picture>
+                            <figcaption class="smallcopy para">Problem Solving</figcaption>
+                        </figure>
+                        <figure class="soft-skills-card">
+                            <picture srcset="images/smallscreen/time-management.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/time-management.png" alt="Time Management">
+                            </picture>
+                            <figcaption class="smallcopy para">Time Management</figcaption>
+                        </figure>
+                        <figure class="soft-skills-card">
+                            <picture srcset="images/smallscreen/communication-teamwork.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/communication-teamwork.png" alt="Communication & Teamwork">
+                            </picture>
+                            <figcaption class="smallcopy para">Communication & Teamwork</figcaption>
+                        </figure>
+                        <figure class="soft-skills-card">
+                            <picture srcset="images/smallscreen/adaptability.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/adaptability.png" alt="Adaptability">
+                            </picture>
+                            <figcaption class="smallcopy para">Adaptability</figcaption>
+                        </figure>
+                        <figure class="soft-skills-card">
+                            <picture srcset="images/smallscreen/creativity.png" media="(max-width: 768px)">
+                                <img src="images/bigscreen/creativity.png" alt="Creativity">
+                            </picture>
+                            <figcaption class="smallcopy para">Creativity</figcaption>
+                        </figure>
+                    </section>
+                </section>
 
             </div>
 
@@ -279,7 +361,7 @@
                     <input class="para browndrapes contact-form-name-email" type="text" name="name" placeholder="Name" required />
                     <input class="para browndrapes contact-form-name-email" type="email" name="email" placeholder="Email" required />
                     <textarea class="para browndrapes contact-form-message" name="message" placeholder="Message" required></textarea>
-                    <button class="ctas browndrapes send-button" type="submit">Send</button>
+                    <button class="ctas stonebeige send-button" type="submit">Send</button>
                     <div id="form-message" class="form-message"></div>
 
                 </form>
@@ -304,17 +386,15 @@
                         </picture>
                     </a>
                 </div>
-
-
+                
+                <footer>
+                    <p class="para deepcave ">© 2025, Tatiane Brito. All rights reserved.</p>
+                </footer>
             </div>
-
-            <footer>
-                <p class="para deepcave ">© 2025, Tatiane Brito. All rights reserved.</p>
-            </footer>
 
 
             
-        </div>
+        </section>
         <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
