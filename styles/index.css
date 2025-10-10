@@ -97,7 +97,7 @@
         align-items: center;
         margin-top: 32.8vw;
         text-align: center;
-        gap:2.92vw;
+        gap:2.82vw;
     
     }
 
@@ -167,6 +167,9 @@
         width: 66.53vw;
     }
 
+    .swiper-pagination{
+        display: none;
+    }
 
      .see-all-button {
         display:flex;
@@ -326,7 +329,7 @@
 
     .contact-me{
         position: relative;
-        margin-top: 25vw; 
+        margin-top: 15vw; 
         min-height: 46.5vw;
     }
 
@@ -496,8 +499,6 @@
         gap:2.92vw;
     
     }
-
-
     
 
     .project-background{
