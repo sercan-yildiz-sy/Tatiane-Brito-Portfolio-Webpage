@@ -1,25 +1,39 @@
 @media (min-width: 768px) {
 
+   
+
     .main-nav {
+        z-index: 10;
         position: absolute;
-        top: 7.66vw;
-        left: 2.22vw;
-        width: 23vw;
+        top: 0vw;
+        left: 3.33vw;
+        width: 30vw;
         transform-origin: left top;
         transform:rotate(-90deg) translateX(-100%);
-        display: flex;
-        gap:1.75vw;
-    }
-    
-    .main-nav ul {
-        display: flex;
-        gap:1.75vw;
+
     }
 
-    ul.nav li {    
-        height:100%;
-        
+   .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row; 
     }
+
+    .nav-item {
+        margin: 1.5vw;
+    }
+
+    .nav-item:hover{
+        color: #FAF6EB;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
 
     .background-leoo{
         background-image: url('../images/bigscreen/Leoo/leoo-background.png');
@@ -49,7 +63,7 @@
     }
 
     .background-quickly{
-        background-image: url('../images/bigscreen/quickly/background-quickly.png');
+        background-image: url('../images/bigscreen/Quickly/background-quickly.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -382,7 +396,7 @@
     }
 
     .arc-width{
-        width: 90.48vw;
+        width: 90.5vw;
         margin: -0.55vw;
     }
 
@@ -417,11 +431,14 @@
     }
 
     .ideation-sercan{
-        width: 28.47vw;
+        width: 28.54vw;
     }
 
     .backlog-smartfit{
         width: 14.44vw;
+    }
+    .backlog{
+        white-space: nowrap;
     }
 
     .ideate-smartfit{
@@ -638,22 +655,24 @@
         text-decoration-color: #FAF6EB;
     }
 
-    .open-button-dark{
-        width: 16.18vw;
+    .open-button-light{
+        width: 13.47vw;
         height: 3.33vw;
-        padding: 0.55vw 2.77vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-width: 1px;
-        background-color: transparent;
+        background-color: #F1EBDC;
         border-style:solid;
-        border-color:#F1EBDC;
+        border-color:#150903;
         border-radius: 16px;
     }
 
 
-    .open-button-dark:hover{
-        background-color: #F1EBDC;
-        color: #150903;
-        border-color: #150903;
+    .open-button-light:hover{
+        background-color: #150903;
+        color: #F1EBDC;
+        border-color: #F1EBDC;
         cursor: pointer;
     }
 

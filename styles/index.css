@@ -55,19 +55,16 @@
         width: 52vw;
         margin-left: auto;
         margin-right: auto;
-        gap:2.7778vw;
+        gap:1vw;
         margin-top:5.9vw;
     }
 
     .name{
         display: flex;
         flex-direction: column;
-        gap: 1.667vw;
+        gap: 0.2vw;
     }
 
-    .name h1{
-        margin-bottom: -0.15em;
-    }
 
     .description{
         display:flex;
@@ -75,9 +72,6 @@
         gap:1.111vw;
     }
 
-    .main-text-container p{
-        margin:0;
-    }
 
 
     .about-me-button {
@@ -133,9 +127,10 @@
     .project-container p, .project-container h2{
         margin: 0;
     }
+
      .project-container h2{
         margin-top: -40.7vw;
-        margin-bottom: -1vw;
+        margin-bottom: -1.6vw;
     }
 
 
@@ -210,11 +205,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1.25vw;
+        gap: 0.5vw;
     }
 
     .bust-texts p{
         margin:0;
+        width: 36vw;
     }
 
 
@@ -242,6 +238,7 @@
         margin-top: 10vw;
     }
 
+
     .hand {
         width: 36.54vw;
         height: 33.76vw;
@@ -251,7 +248,7 @@
     }
 
     .skill-texts h3{
-        margin-top:0.75vw;
+        margin-top:-0.5vw;
     }
     
 
@@ -275,21 +272,30 @@
         height: 8.05vw;        
         box-sizing: border-box;
     }
+    .skills-card-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; 
+    }
 
-    .skills-card img{
+    .skills-card-inner img{
         width: 5.556vw;
         border-radius: 16px;
         object-fit: cover;
     }
 
     .skills-card-text{
-        padding-left: 1.67vw;
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5vw;
+        padding-left: 1.667vw;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .skills-experience{
         color: rgba(241, 235, 220, 0.72);
-        margin-top: -0.2vw;
+        margin-top: -1.5vw;
     }
 
     .core-competencies{
@@ -408,6 +414,9 @@
         justify-content: center;
         text-align: center;
         gap: 2.222vw;
+    }
+    .contact-logos img{
+        width:4.44vw;
     }
 }
 
