@@ -407,6 +407,14 @@
         background-color: #150903;
     }
 
+    .email-error{
+      color: #B04C4E;
+      text-align: left;
+      margin-top: -1vw;
+      display: none;
+      white-space: nowrap;
+    }
+
     .contact-logos{
         display: flex;
         flex-direction: row;
@@ -835,6 +843,12 @@
         border-radius: 16px;
         width: 24.09vw;
         height: 10.91vw;
+    }
+    .email-error{
+        color: #B04C4E;
+        text-align: left;
+        margin-top: -1vw;
+        display: none;
     }
 
     .contact-logos{
