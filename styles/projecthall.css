@@ -1,5 +1,4 @@
 @media (min-width: 768px) {
- 
 
     .nav-item:hover{
         color: #FAF6EB;
@@ -42,6 +41,7 @@
         background-repeat: no-repeat;
         width: 100%;
         height: 376.67vw;
+        left:0;
         top:0;
         position: absolute;
         overflow: hidden;
@@ -51,24 +51,21 @@
 
     .main-text-container{
         margin-top: 2vw;
-        margin-left: -15vw;
+        margin-left: 4.44vw;
         z-index: 10;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: flex-start;
+        gap: 5vw;
     }
 
-
-    .branding{
-        margin-top: 5vw;
-        text-align: left;
-        margin-left: 19.44vw;
-    }
     
     .projects-texts-container-start{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start; 
-        gap: 2vw; 
+        gap: 1.667vw;
     }
 
     .projects-texts-container-end{
@@ -76,7 +73,7 @@
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-end; 
-        gap: 2vw; 
+        gap: 1.667vw; 
     }
 
     .project-card-title{
@@ -170,40 +167,60 @@
         color: #F1EBDC;
     }
 
-    .leoo {
-        margin-left: 4.44vw;
-        margin-top: 3vw;
-        margin-right: auto;
+    .leoo,
+    .paw,
+    .quickly,
+    .arc,
+    .re,
+    .sercan,
+    .smartfit,
+    .bacio {
         width: fit-content;
         display: flex;
-        align-items: center;
         gap: 1.67vw;
-        flex-direction: row;
     }
 
-    .leoo-img{
-        width: 66.53vw;
-        height: 33.89vw;
+    .leoo,
+    .quickly,
+    .re,
+    .smartfit,
+    .bacio {
+        margin-left: 4.44vw;
+        margin-right: auto;
     }
+
+    .paw,
+    .arc,
+    .sercan {
+        margin-left: auto;
+        margin-right: 7.57vw;
+    }
+
+
+    .leoo-img,
+    .re-img,
+    .bacio-img {
+        width: 66.53vw;
+    }
+
+    .leoo{
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 3vw;
+    }
+
 
     .leoo-texts{
         width: 21.25vw; 
         height: 12.85vw;      
         padding-right: 2vw;  
         padding-left: 2vw;
-        margin-top: 12vw;
         
     }
 
-
     .paw {
-        margin-right: 7.57vw;
-        margin-left: auto;
         margin-top: 5vw;
-        width: fit-content;
-        display: flex;
         align-items: center;
-        gap: 1.67vw;
     }
 
     .paw-img{
@@ -226,13 +243,8 @@
     }
 
     .quickly {
-        margin-left: 4.44vw;
-        margin-right: auto;
         margin-top: 5vw;
-        width: fit-content;
-        display: flex;
         align-items: start;
-        gap: 4vw;
         flex-direction: column-reverse;
     }
 
@@ -246,17 +258,11 @@
         height: 10.35vw;        
         padding-right: 2vw;
         padding-left: 2vw;
-        margin-top: -5vw;
     }
 
     .arc {
-        margin-right: 9.24vw;
-        margin-left: auto;
         margin-top: -33vw;
-        width: fit-content;
-        display: flex;
         align-items: center;
-        gap: 1.67vw;
     }
 x
     .arc-img{
@@ -278,37 +284,23 @@ x
     }
 
     .re{
-        margin-left: 4.44vw;
         margin-top: 3vw;
-        margin-right: auto;
-        width: fit-content;
-        display: flex;
-        align-items: center;
-        gap: 1.67vw;
+        align-items: flex-end;
         flex-direction: row-reverse;
     }
 x
-    .re-img{
-        width: 66.53vw;
-        height: 33.89vw;
-    }
-
+    
     .re-texts{
         width: 21.25vw; 
         height: 11.6vw;      
         padding-right: 2vw;  
         padding-left: 2vw;
-        margin-top: 15vw;
     }
 
+
     .sercan{
-        margin-right: 9.24vw;
-        margin-left: auto;
         margin-top: 4vw;
-        width: fit-content;
-        display: flex;
         align-items: end;
-        gap: 1.67vw;
         flex-direction: column-reverse;
     }
 x
@@ -325,13 +317,8 @@ x
     }
 
     .smartfit{
-        margin-left: 4.44vw;
-        margin-right: auto;
         margin-top: -35vw;
-        width: fit-content;
-        display: flex;
         align-items: center;
-        gap: 1.67vw;
         flex-direction: row-reverse;
     }
 x
@@ -348,15 +335,6 @@ x
         margin-top: 45vw;
     }
 
-    .bacio{
-        margin-right: auto;
-        margin-left: 4.44vw;
-        margin-top: 5vw;
-        width: fit-content;
-        display: flex;
-        align-items: start;
-        gap: 1.67vw;
-    }
 
     .bacio-img{
         width: 66.53vw;
