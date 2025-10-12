@@ -34,18 +34,47 @@
         font-weight: 500;
     }
 
-    .background{
-        background-image: url('../images/bigscreen/projecthall-background.png');
+    .background-top{
+        background-image: url('../images/bigscreen/dark-bg.png');
+        background-color: #150903;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 0 0 0 22.5vw;
+        position: relative;
+        padding-bottom: 8vw;
+    }
+
+    .background-middle{
+        background-image: url('../images/bigscreen/light-bg.png');
+        background-color: #F1EBDC;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        height: 376.67vw;
-        left:0;
-        top:0;
-        position: absolute;
         overflow: hidden;
-        z-index: -1;
+        z-index: 0;
+        padding-top: 22.5vw;
+        padding-bottom: 28.5vw;
+        margin-top: -22.5vw;
+        margin-bottom: -22.5vw;
+        position: relative;
+    }
+
+    .background-bottom{
+        background-image: url('../images/bigscreen/dark-bg.png');
+        background-color: #150903;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 0 22.5vw 0 0;
+        position: relative;
+        padding-bottom: 8vw;
     }
     
 
@@ -203,6 +232,30 @@
         width: 66.53vw;
     }
 
+    .paw-img,
+    .quickly-img,
+    .sercan-img {
+        width: 30.56vw;
+        height: 30.56vw;
+    }
+
+    .arc-img, .smartfit-img {
+        width: 33.3333vw;
+    }
+
+    .leoo-texts,
+    .paw-texts,
+    .quickly-texts,
+    .arc-texts,
+    .re-texts,
+    .sercan-texts,
+    .smartfit-texts,
+    .bacio-texts {
+        width: 21.25vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
     .leoo{
         justify-content: flex-end;
         align-items: flex-end;
@@ -211,10 +264,7 @@
 
 
     .leoo-texts{
-        width: 21.25vw; 
-        height: 12.85vw;      
-        padding-right: 2vw;  
-        padding-left: 2vw;
+        height: 12.85vw;   
         
     }
 
@@ -223,22 +273,14 @@
         align-items: center;
     }
 
-    .paw-img{
-        width: 30.56vw;
-        height: 30.56vw;
-    }
 
     .paw-texts{
-        width: 21.25vw; 
-        height: 10.35vw;        
-        padding-right: 2vw;
-        padding-left: 2vw;
-        margin-top: 10.5vw;
+        height: 10.35vw;    
     }
 
 
     .mobile-exhibition{
-        margin-top: 12vw;
+        margin-top: 4vw;
         margin-left: 4.44vw;
     }
 
@@ -248,34 +290,18 @@
         flex-direction: column-reverse;
     }
 
-    .quickly-img{
-        width: 30.56vw;
-        height: 30.56vw;
-    }
 
     .quickly-texts{
-        width: 21.25vw; 
-        height: 10.35vw;        
-        padding-right: 2vw;
-        padding-left: 2vw;
+        height: 10.35vw;      
     }
 
     .arc {
         margin-top: -33vw;
         align-items: center;
     }
-x
-    .arc-img{
-        width: 33.3333vw;
-        height: 65.43vw;
-    }
 
     .arc-texts{
-        width: 21.25vw; 
-        height: 10.35vw;        
-        padding-right: 2vw;
-        padding-left: 2vw;
-        margin-top: 45vw;
+        height: 10.35vw;    
     }
 
     .digital-exhibition{
@@ -291,10 +317,7 @@ x
 x
     
     .re-texts{
-        width: 21.25vw; 
-        height: 11.6vw;      
-        padding-right: 2vw;  
-        padding-left: 2vw;
+        height: 9.79vw;     
     }
 
 
@@ -303,50 +326,27 @@ x
         align-items: end;
         flex-direction: column-reverse;
     }
-x
-    .sercan-img{
-        width: 30.56vw;
-        height: 30.56vw;
-    }
+
 
     .sercan-texts{
-        width: 21.25vw; 
-        height: 10.35vw;            
-        padding-right: 2vw;
-        padding-left: 2vw;
+        height: 10.35vw;        
     }
 
     .smartfit{
         margin-top: -35vw;
-        align-items: center;
+        align-items: flex-end;
         flex-direction: row-reverse;
-    }
-x
-    .smartfit-img{
-        width: 35.416vw;
-        height: 65.43vw;
     }
 
     .smartfit-texts{
-        width: 21.25vw; 
-        height: 11.67vw;        
-        padding-right: 2vw;
-        padding-left: 2vw;
-        margin-top: 45vw;
+        height: 11.67vw;    
     }
 
-
-    .bacio-img{
-        width: 66.53vw;
-        height: 33.89vw;
+    .bacio{
+        margin-top: 5vw;
     }
-
     .bacio-texts{
-        width: 21.25vw; 
-        height: 11.67vw;        
-        margin-top: 15vw;
-        padding-right: 2vw;
-        padding-left: 2vw;
+        height: 11.67vw;   
     }
 
     .contact-logos{
