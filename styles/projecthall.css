@@ -274,9 +274,11 @@
         padding-left: 1.667vw;
         padding-right: 1.667vw;
     }
+
     .re-texts{
         height: 9.79vw;
     }
+
     .leoo{
         justify-content: flex-end;
         align-items: flex-end;
@@ -291,7 +293,7 @@
 
     .paw {
         margin-top: 5vw;
-        align-items: center;
+        align-items: flex-end;
     }
 
 
@@ -300,8 +302,9 @@
     }
 
 
-    .mobile-exhibition{
-        margin-top: 4vw;
+    .mobile-exhibition,
+    .digital-exhibition{
+        margin-top: 6vw;
     }
 
     .quickly {
@@ -317,19 +320,12 @@
 
     .arc {
         margin-top: -33vw;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .arc-texts{
         height: 10.35vw;    
     }
-
-    .digital-exhibition{
-        margin-top: 20vw;
-    }
-
-    
-
 
     .re-texts{
         height: 9.79vw;     
@@ -373,18 +369,19 @@
         text-align: center;
         gap: 2.222vw;
     }
-    .logos{
+
+    .logos img{
         width: 4.44vw;
         height: 4.44vw;
     }
+
     .footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between; 
         align-items: center;
         margin-top: 5vw;
-        padding-left: 4.44vw;   
-        padding-right: 9.24vw;
+        width: 100%;
     }
 
     .back-to-top{
@@ -396,7 +393,9 @@
         width: 19.86vw;
         height: 3.33vw;
         white-space: nowrap;
-        padding: 0.55vw 2.77vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
    
@@ -408,6 +407,7 @@
     .main-nav {
         width: 100%;
         margin-top: 8vw;
+        
     }
 
    .navbar-nav {
@@ -426,17 +426,47 @@
 
 
 
-    .background{
-        background-image: url('../images/smallscreen/projecthall-background.png');
+    .background-top{
+        background-image: url('../images/bigscreen/dark-bg.png');
+        background-color: #150903;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 0 0 0 22.5vw;
+        position: relative;
+        padding-bottom: 8vw;
+    }
+
+    .background-middle{
+        background-image: url('../images/bigscreen/light-bg.png');
+        background-color: #F1EBDC;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        height: 1090.68vw;
-        top:0;
-        position: absolute;
         overflow: hidden;
-        z-index: -1;
+        z-index: 0;
+        padding-top: 22.5vw;
+        padding-bottom: 28.5vw;
+        margin-top: -22.5vw;
+        margin-bottom: -22.5vw;
+        position: relative;
+    }
+
+    .background-bottom{
+        background-image: url('../images/bigscreen/dark-bg.png');
+        background-color: #150903;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 0 22.5vw 0 0;
+        position: relative;
+        padding-bottom: 8vw;
     }
     
 
