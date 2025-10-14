@@ -80,7 +80,6 @@
 
     .main-text-container{
         margin-top: 2vw;
-        margin-left: 4.44vw;
         z-index: 10;
         display: flex;
         flex-direction: column;
@@ -105,22 +104,11 @@
         gap: 1.667vw; 
     }
 
-    .project-card-title{
-        margin-bottom: 0.5vw;;
-    }
-
-    .project-card-explanation{
-        margin-top: 0.5vw;
-        width: 16vw;
-    }
+  
     
     .project-card-dark{
         background-color: #241A15;
         border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
     }
 
     .project-card-dark:hover{
@@ -135,10 +123,6 @@
     .project-card-light{
         background-color: #F1EBDC;
         border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
     }
 
     .project-card-light:hover{
@@ -153,7 +137,9 @@
     .open-button-dark{
         width: 10.42vw;
         height: 3.33vw;
-        padding: 0.55vw 2.77vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-width: 1px;
         background-color: transparent;
         border-style:solid;
@@ -176,7 +162,9 @@
     .open-button-light{
         width: 10.42vw;
         height: 3.33vw;
-        padding: 0.55vw 2.77vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-width: 1px;
         background-color: transparent;
         border-style:solid;
@@ -208,21 +196,32 @@
         display: flex;
         gap: 1.67vw;
     }
+    .re{
+        margin-top: 3vw;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+    }
 
     .leoo,
     .quickly,
-    .re,
     .smartfit,
     .bacio {
-        margin-left: 4.44vw;
+        margin-left: 0;
         margin-right: auto;
+    }
+    
+    .widt{
+        padding-left: 4.44vw;
+        padding-right: 7.57vw;
+        width: 100%;
     }
 
     .paw,
     .arc,
     .sercan {
+        margin-right:0;
         margin-left: auto;
-        margin-right: 7.57vw;
     }
 
 
@@ -242,6 +241,18 @@
     .arc-img, .smartfit-img {
         width: 33.3333vw;
     }
+    .leoo-img img,
+.paw-img img,
+.quickly-img img,
+.arc-img img,
+.re-img img,
+.sercan-img img,
+.smartfit-img img,
+.bacio-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
     .leoo-texts,
     .paw-texts,
@@ -251,11 +262,21 @@
     .sercan-texts,
     .smartfit-texts,
     .bacio-texts {
-        width: 21.25vw;
-        padding-right: 2vw;
-        padding-left: 2vw;
+        width: 19.79vw;
+        height: 9.79vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        gap: 1.25vw;
+        border-radius: 8px;
+        padding-left: 1.667vw;
+        padding-right: 1.667vw;
     }
-
+    .re-texts{
+        height: 9.79vw;
+    }
     .leoo{
         justify-content: flex-end;
         align-items: flex-end;
@@ -281,7 +302,6 @@
 
     .mobile-exhibition{
         margin-top: 4vw;
-        margin-left: 4.44vw;
     }
 
     .quickly {
@@ -306,16 +326,11 @@
 
     .digital-exhibition{
         margin-top: 20vw;
-        margin-left: 4.44vw;
     }
 
-    .re{
-        margin-top: 3vw;
-        align-items: flex-end;
-        flex-direction: row-reverse;
-    }
-x
     
+
+
     .re-texts{
         height: 9.79vw;     
     }
@@ -323,7 +338,8 @@ x
 
     .sercan{
         margin-top: 4vw;
-        align-items: end;
+        align-items: flex-end;
+        justify-content: flex-end;
         flex-direction: column-reverse;
     }
 
@@ -382,6 +398,8 @@ x
         white-space: nowrap;
         padding: 0.55vw 2.77vw;
     }
+
+   
     
 }
 
