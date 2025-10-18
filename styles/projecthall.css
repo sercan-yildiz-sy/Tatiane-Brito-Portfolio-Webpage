@@ -313,10 +313,11 @@
 }
 
 @media (max-width: 767px) {
- 
+    
+
     .main-nav {
         width: 100%;
-        margin-top: 6vw;
+        padding-top: 6vw;
         position: relative;
         z-index: 10;
     }
@@ -336,36 +337,6 @@
     }
     
 
-    .main-nav {
-        z-index: 10;
-        position: absolute;
-        top: 9vw;
-        right: 11.5vw;
-        width: 30vw;
-    }
-
-   .navbar-nav {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .nav-item {
-        margin: 1.5vw;
-    }
-
-    .nav-item:hover{
-        color: #FAF6EB;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        font-weight: 500;
-    }
-
-
     .background-top,
     .background-middle,
     .background-bottom{
@@ -374,7 +345,7 @@
         background-repeat: no-repeat;
         overflow: hidden;
         position: relative;
-        width: 100;
+        width: 100%;
     }
 
     .background-top,
@@ -382,7 +353,7 @@
         background-image: url('../images/bigscreen/dark-bg.png');
         background-color: #150903;
         z-index: 1;
-        padding-bottom: 8vw;
+        padding-bottom: 15vw;
     }
 
     .background-top{
@@ -394,7 +365,7 @@
         background-color: #F1EBDC;
         z-index: 0;
         padding-top: 22.5vw;
-        padding-bottom: 28.5vw;
+        padding-bottom: 38.5vw;
         margin-top: -22.5vw;
         margin-bottom: -22.5vw;
     }
@@ -417,7 +388,7 @@
     .projects-texts-container-end{
         display: flex;
         flex-direction: column;
-        gap: 1.667vw;
+        gap: 3.636vw;
     }
     
     .projects-texts-container-start{
@@ -456,8 +427,8 @@
 
     .open-button-dark,
     .open-button-light{
-        width: 9.44vw;
-        height: 3.33vw;
+        width: 25.23vw;
+        height: 10.91vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -472,8 +443,8 @@
     }
 
     .widt{
-        padding-left: 4.44vw;
-        padding-right: 7.57vw;
+        padding-left: 6.82vw;
+        padding-right: 6.82vw;
         width: 100%;
     }
 
@@ -487,8 +458,42 @@
     .bacio {
         width: fit-content;
         display: flex;
-        gap: 1.67vw;
+        gap: 3.636vw;
+        align-items: flex-start;
+    }
+
+    .leoo,
+    .paw,
+    .quickly,
+    .re,
+    .sercan,
+    .bacio{
+        flex-direction: column-reverse;
+    }
+
+    .arc{
+        flex-direction: row;
+    }
+
+    .smartfit{
+        flex-direction: row-reverse;
+    }
+
+    .arc,
+    .smartfit{
         align-items: flex-end;
+    }
+
+    .leoo,
+    .re,
+    .bacio{
+        width: 86.36vw;
+    }
+
+    .paw,
+    .quickly,
+    .sercan{
+        width: 73.64vw;
     }
 
     .leoo,
@@ -508,56 +513,16 @@
     }
 
     .leoo,
-    .re {
-        margin-top: 3vw;
-    }
-
     .paw,
     .quickly,
-    .bacio{
-        margin-top: 5vw;
-    }
-
-    .quickly,
-    .sercan{
-        flex-direction: column-reverse;
-    }
-
-    .quickly{
-        align-items: flex-start;
-    }
-
-    .re,
-    .smartfit{
-        flex-direction: row-reverse;
-    }
-
     .arc,
-    .smartfit{
-        margin-top: -33vw;
+    .re,
+    .sercan,
+    .smartfit,
+    .bacio{
+        margin-top: 14.54vw;
     }
 
-    .sercan{
-        margin-top: 4vw;
-    }
-
-    .leoo-img,
-    .re-img,
-    .bacio-img {
-        width: 66.53vw;
-    }
-
-    .paw-img,
-    .quickly-img,
-    .sercan-img {
-        width: 30.56vw;
-        height: 30.56vw;
-    }
-
-    .arc-img, 
-    .smartfit-img {
-        width: 33.3333vw;
-    }
 
     .leoo-img img,
     .paw-img img,
@@ -580,8 +545,8 @@
     .sercan-texts,
     .smartfit-texts,
     .bacio-texts {
-        width: 19.79vw;
-        height: 9.79vw;
+        width: 100%;
+        height: 15.71vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -589,26 +554,21 @@
         text-align: left;
         gap: 1.25vw;
         border-radius: 8px;
-        padding: 0 1.667vw;
+        padding: 1.8vw;
     }
 
+    
 
-    .leoo-texts{
-        height: 12.85vw;   
-    }
-
-    .paw-texts,
-    .quickly-texts,
     .arc-texts,
-    .sercan-texts{
-        height: 10.35vw;    
+    .smartfit-texts{
+        width: 30vw;
+        height: 35vw;
     }
 
-    .smartfit-texts,
-    .bacio-texts{
-        height: 11.67vw;    
+    .smartfit-texts{
+        height: 39.9vw;
     }
-
+    
     .mobile-exhibition,
     .digital-exhibition{
         margin-top: 6vw;
@@ -619,31 +579,39 @@
         align-items: center;
         justify-content: flex-start;
         text-align: center;
-        gap: 2.222vw;
+        gap: 7.27vw;
     }
 
     .logos img{
-        width: 4.44vw;
-        height: 4.44vw;
+        width: 14.54vw;
+        height: 14.54vw;
     }
 
     .footer{
         display: flex;
-        justify-content: space-between; 
+        flex-direction: column;
         align-items: center;
-        margin-top: 5vw;
+        margin-top: 20vw;
+        gap: 8.18vw;
         width: 100%;
+        margin-bottom: 10vw;;
     }
 
     .back-to-top{
         background-color: #F1EBDC;
         border-radius: 16px;
-        width: 19.86vw;
-        height: 3.33vw;
+        width: 43.18vw;
+        height: 10.91vw;
         white-space: nowrap;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    footer{
+        margin-left: -6.82vw;
+        margin-right: -6.82vw;
+    }
+
     
 }
