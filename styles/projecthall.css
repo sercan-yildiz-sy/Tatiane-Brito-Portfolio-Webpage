@@ -374,6 +374,16 @@
         border-radius: 0 22.5vw 0 0;
     }
     
+    .background-top::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 18.18vw;
+        background-color: #1509037A;
+        z-index: 2;
+    }
 
     .main-text-container{
         margin-top: 2vw;
