@@ -681,12 +681,12 @@
     .background-top,
     .background-middle,
     .background-bottom{
-        background-size: cover;
+        background-size: auto;
         background-position: center;
-        background-repeat: no-repeat;
         overflow: hidden;
         position: relative;
         width: 100%;
+        background-repeat: repeat
     }
 
     .background-top,
@@ -763,7 +763,7 @@
         margin-top: 8.63vw;
         margin-left: 7.27vw;
         text-align: left;
-        max-width: 86.36vw;
+        max-width: 74.54vw;
         gap: 0vw;
     }
     
@@ -774,7 +774,6 @@
 
     .title{
         margin-bottom: 5vw;
-        white-space: nowrap;
     }
 
 
@@ -782,7 +781,7 @@
         display: flex;
         gap: 0;
         flex-direction: column;
-        width: 86.36;
+        width: 86.36vw;
         margin-top: 8vw;
         margin-bottom: 2vw;
     }
@@ -850,7 +849,7 @@
         max-width: 90.55vw;
         align-items: flex-start;
         padding-left: 8.18vw;
-        margin-top: 5vw;
+        margin-top: 15vw;
     }
 
 
@@ -862,8 +861,9 @@
         margin-top: 2.22vw;
         display:flex;
         flex-direction: row;
-        gap: 2.77vw;
-        width: 90.55vw;
+        gap: 9.09vw;
+        width: 86.36vw;
+        flex-wrap: wrap;
     }
 
     .kickoff-pictures-flex img{
@@ -873,16 +873,30 @@
 
     .kickoff-pictures-grid{
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;  
-        grid-template-rows: 1fr 1fr;     
-        height: 27.77vw;
-        width: 90.55vw;
+        grid-template-columns: 1fr 1fr;  
+        gap: 9.09vw;
+        width: 86.36vw;
         margin-top: 2vw;
     }
 
+    .full-width {
+        grid-column: 1 / 3;
+    }
+    .half-width {
+        grid-column: span 1;
+    }
+
+    .kickoff-pictures-grid img{
+        width: 100%;
+        height: auto;
+    }
+
+    .leoo-kickoff-gap{
+        gap:5.45vw
+    }
     
     .double-diamond-container{
-        margin-top: 5vw;
+        margin-top: 18.18vw;
         padding-left: 8.18vw;
         
     }
@@ -894,6 +908,7 @@
         gap: 9.09vw;
         justify-content: flex-start;
         flex-wrap: wrap;
+        width: 86.36vw;
     }
 
 
@@ -905,7 +920,7 @@
     }
 
     .double-diamond-oneline{
-        width: 20.55vw;
+        width: 86.36vw;
     }
 
     .double-diamond-cards img {
@@ -917,7 +932,6 @@
     .double-diamond-cards p{
         margin: 0;
     }
-
 
     .double-diamond-cards-multiple{
         display: flex;
@@ -932,6 +946,26 @@
         min-width: 0;        
         max-width: 100%;
         height: auto;
+    }
+
+    .emphatize-quickly .double-diamond-cards-multiple{
+        flex-wrap: nowrap;
+    }
+
+    .ideation-sercan .double-diamond-cards-multiple{
+        flex-wrap: nowrap;
+    }
+    
+    .ideation-quickly .double-diamond-cards-multiple {
+        flex-wrap: wrap;
+    }
+
+    .full-width-multiple{
+        width: 100%;
+    }
+    
+    .half-width-multiple{
+        width: 40.9vw;
     }
 
     .double-diamond-cards-header{
@@ -963,25 +997,73 @@
         width: 93.18vw;
     }
 
-    figcaption{
-        margin-top:1.81vw;
-    }
-    
+
     .deliverables-pictures{
-        margin-top: 2.77vw;
+        margin-top: 7.27vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 2.77vw;
-        row-gap: 2.77vw;
-        column-gap: 2.77vw;
+        gap: 9.09vw;
+        margin-bottom: 15vw;
     }
 
     .deliverables img{
         width: 100%;
     }
 
+    .deliverables .img5{
+        width: 43.86vw;
+    }
+
+    .deliverables .img6{
+        width: 33.41vw;
+    }
+
+    .leoo-deliverables-gap{
+        gap: 7.27vw;
+    }
+
+    .paw-deliverables-pictures,
+    .quickly-deliverables-pictures{
+        margin-top: 7.27vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7.27vw;
+        margin-bottom: 15vw;
+    }
+
+    figcaption{
+        margin-top:1.81vw;
+        margin-bottom: -5vw;
+    }
+
+    .open-button-light{
+        width: 36.14vw;
+        height: 10.91vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F1EBDC;
+        border-radius: 16px;
+    }
     
+    .link-figma{
+        margin-top: 4.44vw;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .link-website{
+        margin-top: 5vw;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-decoration: underline;
+        text-decoration-color: #FAF6EB;
+    }
+
     .similar {
         margin-top: 5.55vw;
         display: flex;

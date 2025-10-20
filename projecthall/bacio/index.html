@@ -18,31 +18,23 @@
     </head>
 
     <body>      
-        <header>
-            <nav class="vertical-navbar navbar-expand-sm navbar-light mb-3">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class=" main-nav collapse navbar-collapse" id="mainNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item mx-4">
-                                <a class="nav-link tags stonebeige-nav" href="../../#contact">Contact</a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link tags stonebeige-nav" href="../">Projects</a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link tags stonebeige-nav" href="../../">Home</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>  
+        <div id="top" class="background-top">
+            <header>
+            <nav class="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link tags stonebeige-nav" href="../../#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tags stonebeige-nav" href="../">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tags stonebeige-nav" href="../../">Home</a>
+                    </li>
+                </ul>
             </nav>
         </header>
 
-        <div id="top" class="background-bacio">
             <img class="curtain" src="../../images/bigscreen/Curtains-projects.png" alt="Curtains"/>
 
             <div class="main-text-container">
@@ -63,21 +55,29 @@
                 
 
             </div>
-
+        </div>
+        <div class="background-middle">
             <div class="kickoff">
-                <h3 class="deepcave kickoff-title">Kick-Off</h2>
+                <h2 class="deepcave kickoff-title">Kick-Off</h2>
                 <p class="para deepcave">The project began by understanding the brand and everything it offered,  followed by a compilation of media and creation of some basic UI Elements that led to the prototype. </p>
 
                 <div class="kickoff-pictures-grid">
-                    <img src="../../images/bigscreen/bacio/kickoff-1.png" alt="Leoo Landing Page" class="bacio-kickoff1" loading="lazy">
-                    <img src="../../images/bigscreen/bacio/kickoff-2.png" alt="Leoo Landing Page" class="bacio-kickoff2"  loading="lazy">
-                    <img src="../../images/bigscreen/bacio/kickoff-3.png" alt="Leoo Landing Page" class="bacio-kickoff3"  loading="lazy">
+                    <img src="../../images/bigscreen/bacio/kickoff-1.png" alt="Leoo Landing Page" class="full-width" loading="lazy">
+                    <picture class="half-width" loading="lazy">
+                        <source srcset="../../images/smallscreen/bacio/bacio-kickoff2.png" media="(max-width: 768px)">
+                        <img src="../../images/bigscreen/bacio/kickoff-2.png" alt="Bacio"/>
+                    </picture>
+
+                    <picture class="half-width" loading="lazy">
+                        <source srcset="../../images/smallscreen/bacio/bacio-kickoff3.png" media="(max-width: 768px)">
+                        <img src="../../images/bigscreen/bacio/kickoff-3.png" alt="Bacio"/>
+                    </picture>
                 </div>
             </div>
             
             <section class="double-diamond-container">
 
-                <h3 class="deepcave">Lean UX Process</h3>
+                <h3 class="deepcave">Process</h3>
                 <section class="double-diamond-flex">
                     <div class="double-diamond-cards double-diamond-oneline">
                         
@@ -120,7 +120,8 @@
                     </div>
                 </section>
             </section>
-
+</div>
+<div class="background-bottom">
             <section class="deliverables">
                 <h3 class="stonebeige">Deliverables</h3>
                 <div class="deliverables-pictures">
@@ -222,7 +223,7 @@
                 </div>
 
                 <a href="#top" >
-                    <span class="ctas browndrapes back-to-top">BACK TO THE TOP</span>
+                    <span class="ctas browndrapes back-to-top">Back To The Top</span>
                 </a>
                 
 
