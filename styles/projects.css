@@ -806,7 +806,6 @@
     .goal-text{
         background-color: #F1EBDC;
         border-radius: 0 0 32px 32px;
-        height: 53.63vw;
         padding: 10.45vw;
         padding-top: 5vw;
         padding-bottom: 7.5vw;
@@ -823,6 +822,7 @@
         gap: 9.09vw;
         flex-wrap: nowrap; 
         width: auto;       
+        margin-top: 3vw;
     }
 
     .skills-text-logo{
@@ -841,5 +841,235 @@
     .skills-text-logo img{
         width: 18.18vw;
     }
+
+    
+    .kickoff{
+        display: flex;
+        flex-direction: column;
+        width: 90.55vw;
+        max-width: 90.55vw;
+        align-items: flex-start;
+        padding-left: 8.18vw;
+        margin-top: 5vw;
+    }
+
+
+    .kickoff-title{
+        margin-bottom: 2.22vw;
+    }
+
+    .kickoff-pictures-flex{
+        margin-top: 2.22vw;
+        display:flex;
+        flex-direction: row;
+        gap: 2.77vw;
+        width: 90.55vw;
+    }
+
+    .kickoff-pictures-flex img{
+        width: 100%;
+        height: auto;
+    }
+
+    .kickoff-pictures-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;  
+        grid-template-rows: 1fr 1fr;     
+        height: 27.77vw;
+        width: 90.55vw;
+        margin-top: 2vw;
+    }
+
+    
+    .double-diamond-container{
+        margin-top: 5vw;
+        padding-left: 8.18vw;
+        
+    }
+
+    .double-diamond-flex{
+        margin-top: 1.22vw;
+        display: flex;
+        flex-direction: row;
+        gap: 9.09vw;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .double-diamond-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 3.636vw;
+        word-break: break-word;
+    }
+
+    .double-diamond-oneline{
+        width: 20.55vw;
+    }
+
+    .double-diamond-cards img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .double-diamond-cards p{
+        margin: 0;
+    }
+
+
+    .double-diamond-cards-multiple{
+        display: flex;
+        flex-direction: row;
+        gap: 3.636vw;
+        flex-wrap: wrap;
+        width: 86.36vw;
+    }
+    
+    .double-diamond-cards-multiple img {
+        flex: 1 1 auto;     
+        min-width: 0;        
+        max-width: 100%;
+        height: auto;
+    }
+
+    .double-diamond-cards-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .double-diamond-cards-header p {
+        margin: 0;
+    }
+
+    .double-diamond-cards em {
+        display: block;
+        margin-bottom:-0.8vw;
+    }
+
+    .double-diamond-cards ul{
+        margin:0;
+    }
+
+    .double-diamond-cards li{
+        margin-bottom: 0
+        
+    }
+
+    .deliverables {
+        margin-top: 15vw;
+        padding-left: 6.818vw;
+        width: 93.18vw;
+    }
+
+    figcaption{
+        margin-top:1.81vw;
+    }
+    
+    .deliverables-pictures{
+        margin-top: 2.77vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2.77vw;
+        row-gap: 2.77vw;
+        column-gap: 2.77vw;
+    }
+
+    .deliverables img{
+        width: 100%;
+    }
+
+    
+    .similar {
+        margin-top: 5.55vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.77vw;
+    }
+    
+    
+    .swiper {
+        width: 100vw;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        gap: 5.45vw;
+    } 
+
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vw;
+    }
+    
+    .swiper-slide a {
+        pointer-events: none;
+    }
+
+    .swiper-slide.swiper-slide-active a {
+        pointer-events: auto;
+    }
+
+    .project-frame img{
+        width: 73.64vw;
+    }
+
+    .swiper-pagination {
+        width: clamp(8px, 1.81vw, 14px);
+        height: clamp(8px, 1.81vw, 14px);
+        position: relative;
+        display: flex;
+        gap: 1.818vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+        background-color: #5F3413;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #F1EBDC;
+    }
+   
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5.55vw;
+        gap: 8.18vw;
+    }
+
+    .back-to-top{
+        background-color: #F1EBDC;
+        border-radius: 16px;
+        width: 43.18vw;
+        height: 10.91vw;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 7.27vw;
+    }
+
+    .contact-logos img{
+        width: 14.55vw;
+        height: 14.55vw;
+    }
+
 
 }
