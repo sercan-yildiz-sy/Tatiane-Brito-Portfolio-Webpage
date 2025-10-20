@@ -170,7 +170,7 @@ em {
 
     .para {
         font-family: 'Buenard', serif;
-        font-weight: 300;
+        font-weight: 400;
         font-size: clamp(0.875rem, 3.64vw, 1.25rem);
         line-height: 1.5; 
     }

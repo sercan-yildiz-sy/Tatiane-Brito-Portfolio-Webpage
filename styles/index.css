@@ -423,6 +423,7 @@
         text-align: center;
         gap: 2.222vw;
     }
+    
     .contact-logos img{
         width:4.44vw;
     }
@@ -433,20 +434,33 @@
 
 @media (max-width: 768px) {
 
-.background{
+    .background{
         background-image: url('../images/smallscreen/background-entrance.png');
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
         height: 296.14vw;
         overflow: hidden;
-        z-index: -1;
+        z-index: 1;
+        position: relative;
     }
 
+    .background::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 18.18vw;
+        background-color: #1509037A;
+        z-index: 2;
+    }
     
     .main-nav {
         width: 100%;
-        margin-top: 8vw;
+        margin-top: 6vw;
+        position: relative; 
+        z-index: 3; 
     }
 
    .navbar-nav {
@@ -473,6 +487,7 @@
         margin-right: auto;
         gap: 7.27vw;
         margin-top: 18vw;
+        z-index: 4;
     }
 
     .name{
@@ -535,6 +550,7 @@
         align-items: center;
         justify-content: center;
         gap: 5.45vw;
+        z-index: 4;
        
     }
     
@@ -555,7 +571,6 @@
         flex-direction: column;
         gap: 5.45vw;
     } 
-
 
 
     .swiper-slide {
